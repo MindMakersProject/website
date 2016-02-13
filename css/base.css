@@ -1,0 +1,85 @@
+
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; }
+
+body {
+	background: #222;
+	color: #383a3c;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.25;
+	font-family: 'Raleway', Calibri, Arial, sans-serif;
+}
+
+#logo {
+	margin-top: -200px;
+	width: 300px;
+}
+
+/* Header */
+.mm-header {
+	margin: 0 auto;
+	padding: 2em;
+	text-align: center;
+	max-width: 900px;
+}
+
+h1 {
+	margin: 0;
+	font-size: 4.5em;
+	line-height: 1;
+	font-weight: 200;
+}
+
+h1 span {
+	display: block;
+	padding: 1em 0 1.5em;
+	font-size: 36%;
+	color: #95a5a6;
+	line-height: 1.4;
+}
+
+.large-header {
+	position: relative;
+	width: 100%;
+	background: #222;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+}
+
+.main-title {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #232323;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
+.main-title {
+	font-size: 4.2em;
+	letter-spacing: 0.1em;
+}
+
+@media only screen and (max-width : 768px) {
+	.main-title {
+		font-size: 3em;
+	}
+}
+
+
+
+@media screen and (max-width: 40em) {
+
+	.mm-header h1 {
+		font-size: 2.5em;
+	}
+
+	p.paragraph { margin: 0 20px; }
+}
