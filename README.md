@@ -1,4 +1,5 @@
-[Mind Makers Project](http://www.mindmakersproject.org)
+[Production](http://www.mindmakersproject.org)
+[Staging](http://mind-makers.surge.sh/)
 
 ### MISSION
 **MAKING MINDFUL MATTERS MATTER**
