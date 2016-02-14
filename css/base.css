@@ -11,9 +11,18 @@ body {
 	width: 300px;
 }
 
+#mm-canvas {
+	position: absolute;
+	z-index: 0;
+}
+
 /* Bulma OVERRIDES*/
+nav {
+	z-index: 10;
+}
+
 .hero {
-	min-height: 55vh;
+	min-height: 65vh;
 	background-color: transparent;
 	color: white;
 }
@@ -74,6 +83,6 @@ a:hover {
 }
 .button.is-primary.is-outlined:hover {
 	background-color: transparent;
-  border-color: #837de2;
-	color: #837de2;
+  border-color: white;
+	color: white;
 }

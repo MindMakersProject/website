@@ -12,8 +12,8 @@
     height = window.innerHeight;
     target = {x: width/2, y: height/2};
 
-    largeHeader = document.getElementById('large-header');
-    largeHeader.style.height = height+'px';
+    largeHeader = document.getElementById('hero');
+    largeHeader.style.height = height;
 
     canvas = document.getElementById('mm-canvas');
     canvas.width = width;
@@ -63,7 +63,7 @@
 
     // assign a circle to each point
     for(var i in points) {
-      var c = new Circle(points[i], 2+Math.random()*4, 'rgba(255,255,255,0.9)');
+      var c = new Circle(points[i], 3+Math.random()*4, 'rgba(255,255,255,0.7)');
       points[i].circle = c;
     }
   }
@@ -99,7 +99,7 @@
   function resize() {
     width = window.innerWidth;
     height = window.innerHeight;
-    largeHeader.style.height = height+'px';
+    largeHeader.style.height = height;
     canvas.width = width;
     canvas.height = height;
   }
