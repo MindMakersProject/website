@@ -1,10 +1,17 @@
 body {
-	background: #222;
-	color: #383a3c;
-	font-weight: 400;
-	font-size: 1em;
-	line-height: 1.25;
-	font-family: 'Raleway', Calibri, Arial, sans-serif;
+	background: #19191A;
+	color: #d7d7d7;
+	font-size: 1.2em;
+	letter-spacing: .02em;
+}
+
+h1.title {
+	font-size: 3em;
+	font-weight: lighter;
+}
+
+.title+.subtitle {
+  margin-top: 5px;
 }
 
 #logo {
@@ -12,8 +19,16 @@ body {
 }
 
 #mm-canvas {
-	position: absolute;
-	z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  pointer-events: none;
+}
+
+hr {
+  border-top-color: #111;
 }
 
 /* Bulma OVERRIDES*/
@@ -22,9 +37,9 @@ nav {
 }
 
 .hero {
-	min-height: 65vh;
+	min-height: 55vh;
 	background-color: transparent;
-	color: white;
+	color: #d7d7d7;
 }
 
 .hero-content {
@@ -37,13 +52,13 @@ nav {
 
 .footer {
 	background-color: transparent;
-	color: white;
+	color: #d7d7d7;
 }
 
 .section {
 	min-height: 100vh;
 	background-color: transparent;
-	color: white;
+	color: #d7d7d7;
 }
 
 .title {
@@ -51,7 +66,7 @@ nav {
 }
 
 .subtitle strong, strong {
-  color: white;
+  color: #B9B582;
   font-weight: 900;
 }
 
@@ -59,6 +74,12 @@ nav {
   background: transparent;
   border-radius: 0px;
 	color: white;
+}
+
+.card {
+  background: transparent;
+	box-shadow: none;
+	border: 1px solid #111;
 }
 
 a {
@@ -70,19 +91,35 @@ a:hover {
 }
 
 .button.is-primary {
-  background: #a6a1ff;
+  background-color: #a6a1ff;
 }
 
 .button.is-primary:hover {
-  background: #837de2;
+  background-color: #837de2;
 }
 
 .button.is-primary.is-outlined {
   border-color: #a6a1ff;
 	color: #a6a1ff;
+	transition: .4s ease;
 }
 .button.is-primary.is-outlined:hover {
-	background-color: transparent;
+	color: black;
   border-color: white;
-	color: white;
+	background-color: white;
+}
+
+.tabs.is-toggle li.is-active a {
+  background-color: #a6a1ff;
+  border-color: #a6a1ff;
+  color: #fff;
+}
+
+.image.is-250x250 {
+  height: 250px;
+  width: 250px;
+}
+
+.subtitle.is-4 {
+	color: #a6a1ff;
 }
