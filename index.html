@@ -12,6 +12,7 @@
 		<meta name="author" content="" />
 		<link rel="shortcut icon" href="./favicon.ico">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/bulma.min.css" />
 		<link rel="stylesheet" type="text/css" href="css/base.css" />
 		<link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
 		<!--[if IE]>
@@ -19,16 +20,102 @@
 		<![endif]-->
 	</head>
 	<body>
-		<div class="container">
-			<div class="content">
-				<div id="large-header" class="large-header">
-					<canvas id="mm-canvas"></canvas>
-					<h1 class="main-title">
-						<img id="logo" src="img/mm-logo.png" alt="Mind Makers Project" />
-					</h1>
-				</div>
-      </div>
-		</div><!-- /container -->
+		<div class="container is-fluid">
+			<!-- <canvas id="mm-canvas"></canvas> -->
+		  <div class="notification">
+		    This website is under <strong>active development.</strong>
+		  </div>
+
+			<nav class="navbar">
+			  <p class="navbar-item is-centered">
+			    <a class="link is-info" href="#mission">Mission</a>
+			  </p>
+			  <p class="navbar-item is-centered">
+			    <a class="link is-info" href="#team">Team</a>
+			  </p>
+			  <p class="navbar-item is-centered">
+			    <img src="img/mm-logo.png" alt="" style="height: 45px;">
+			  </p>
+			  <p class="navbar-item is-centered">
+			    <a class="link is-info" href="#events">Events</a>
+			  </p>
+			  <p class="navbar-item is-centered">
+			    <a class="link is-info" href="#contact">Contact</a>
+			  </p>
+			</nav>
+
+			<section id="top" class="hero">
+			  <div class="hero-content">
+			    <div class="container">
+						<h1 class="main-title">
+							<img id="logo" src="img/mm-logo.png" alt="The Mind Makers Project" />
+						</h1>
+			      <h2 class="subtitle">
+			        Let's do this!
+			      </h2>
+			    </div>
+			  </div>
+			</section>
+
+			<section id="#mission" class="section">
+		    <div class="container">
+		      <div class="heading">
+		        <h1 class="title">Mission</h1>
+		        <h2 class="subtitle">
+		          Section <strong>description.</strong>
+		        </h2>
+		      </div>
+		    </div>
+		  </section>
+
+			<section id="#team" class="section">
+		    <div class="container">
+		      <div class="heading">
+		        <h1 class="title">Team</h1>
+		        <h2 class="subtitle">
+		          Section <strong>description.</strong>
+		        </h2>
+		      </div>
+		    </div>
+		  </section>
+
+			<section id="#events" class="section">
+		    <div class="container">
+		      <div class="heading">
+		        <h1 class="title">Events</h1>
+		        <h2 class="subtitle">
+		          Section <strong>description.</strong>
+		        </h2>
+		      </div>
+		    </div>
+		  </section>
+
+			<section id="#contact" class="section">
+		    <div class="container">
+		      <div class="heading">
+		        <h1 class="title">Contact</h1>
+		        <h2 class="subtitle">
+		          Section <strong>description.</strong>
+		        </h2>
+		      </div>
+		    </div>
+		  </section>
+
+			<footer class="footer">
+			  <div class="container">
+			    <div class="content is-centered">
+			      <p>
+			        <strong>&copy;Mind Makers 2016</strong>
+			      </p>
+			      <p>
+			        <a class="icon" href="https://github.com/jgthms/bulma">
+			          <i class="fa fa-github"></i>
+			        </a>
+			      </p>
+			    </div>
+			  </div>
+			</footer>
+		</div>
 		<script src="js/TweenLite.min.js"></script>
 		<script src="js/EasePack.min.js"></script>
 		<script src="js/rAF.js"></script>
