@@ -50,3 +50,11 @@ section {
   border-radius: 0px;
 	color: white;
 }
+
+a {
+  color: #a1a1a1;
+}
+
+a:hover {
+  color: white;
+}
