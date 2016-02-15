@@ -2,15 +2,7 @@ body {
 	background: #19191A;
 	color: #d7d7d7;
 	font-size: 1.2em;
-}
-
-h1.title {
-	font-size: 3em;
-	font-weight: lighter;
-}
-
-.title+.subtitle {
-  margin-top: 5px;
+	font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
 }
 
 #logo {
@@ -26,11 +18,22 @@ h1.title {
   pointer-events: none;
 }
 
+/* Bulma OVERRIDES*/
+
+h1.title {
+	font-size: 3.2em;
+	font-weight: lighter;
+}
+
+.title+.subtitle {
+  margin-top: 25px;
+	margin-bottom: 65px;
+}
+
 hr {
   border-top-color: #111;
 }
 
-/* Bulma OVERRIDES*/
 nav {
 	z-index: 10;
 }
@@ -87,7 +90,8 @@ nav {
 }
 
 .card-content > .content > p {
-	font-size: .8em;
+	font-size: .7em;
+	text-align: left;
 }
 
 a {
