@@ -1,3 +1,6 @@
+// LOAD STYLES
+require('./base.css');
+
 var testcomp = require('./components/testcomp');
 
 var app = document.createElement('div');
