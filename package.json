@@ -4,6 +4,7 @@
   "description": "The Mind Makers Project Website",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server",
     "build": "webpack"
   },
   "repository": {
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/MindMakersProject/website#readme",
   "devDependencies": {
-    "webpack": "^1.12.13"
+    "webpack": "^1.12.13",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-merge": "^0.7.3"
   }
 }
