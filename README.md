@@ -15,6 +15,7 @@
 * Make sure you have [node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) on your machine
 * `npm install // install all dependencies`
 * `npm start // start a local server with the project`
+* In your browser, go to `http://localhost:8080/`
 * `npm run build // build static folder into the 'dist/' folder`
 
 ## Contribute  

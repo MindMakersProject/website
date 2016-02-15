@@ -1,19 +1,14 @@
 body {
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
+  DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  /*space*/
   font-size: 1.2em;
   color: #d7d7d7;
   background: #19191a;
 }
 
-body {
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
-  font-size: 1.2em;
-  color: #d7d7d7;
-  background: #19191a;
-}
-
-#logo {
-  width: 300px;
+.nav-logo {
+  height: 60px;
 }
 
 #mm-canvas {
@@ -61,6 +56,7 @@ nav {
 
 .footer {
   color: #d7d7d7;
+  text-align: center;
   background-color: transparent;
 }
 

@@ -1,4 +1,10 @@
 import React from 'react';
+
+// BASE LAYOUT
+import Navbar from './layout/Navbar.js';
+import Footer from './layout/Footer.js';
+//
+// PAGES
 import Home from './pages/Home.js';
 
 const App = React.createClass({
@@ -9,7 +15,9 @@ const App = React.createClass({
           <div className="notification">
             This website is under <strong>active development.</strong>
           </div>
+          <Navbar />
           <Home />
+          <Footer />
         </div>
       </div>
     )

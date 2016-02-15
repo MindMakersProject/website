@@ -1,7 +1,14 @@
 [x] Start Project + Base content
 [x] Add Mission and Team Sections
 [x] Add Contact Section
-[] Add Contact functionality (ajax? or typeform?)
 [x] Add Events Section
 [x] Add Media Section
+---
+[x] Add webpack
+[x] Add React and Template -> components
+[] Add fontawesome
+[] Fix css helper classes
+[] Check/fix Responsive
+[] Add Canvas animation
 [] Integrate Instagram @mindmakersproject (Social media links or integrations?)
+[] Add Contact functionality (ajax? or typeform?)

@@ -1,6 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 const merge = require('webpack-merge');
+const HtmlwebpackPlugin = require('html-webpack-plugin');
 
 const TARGET = process.env.npm_lifecycle_event;
 
@@ -14,7 +15,7 @@ const common = {
     app: PATHS.src
   },
   resolve: {
-    extensions: ['', '.js', '.jsx']
+    extensions: ['', '.js']
   },
   output: {
     path: PATHS.dist,
@@ -31,9 +32,33 @@ const common = {
         test: /\.js?$/,
         loaders: ['babel?cacheDirectory'],
         include: PATHS.src
-      }
+      },
+			{
+				test: /\.(png|jpg)$/,
+				loader: 'url-loader?limit=80000',
+				include: PATHS.src
+			}, {
+		    test: /\.(woff|woff2)(\?v=\d+\.\d+\.\d+)?$/,
+		    loader: 'url?limit=10000&mimetype=application/font-woff&prefix=fonts'
+		  }, {
+		    test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/,
+		    loader: 'url?limit=10000&mimetype=application/octet-stream&prefix=fonts'
+		  }, {
+		    test: /\.eot(\?v=\d+\.\d+\.\d+)?$/,
+		    loader: 'url?limit=10000&mimetype=application/vnd.ms-fontobject&prefix=fonts'
+		  }, {
+		    test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
+		    loader: 'url?limit=10000&mimetype=image/svg+xml&prefix=fonts'
+		  }
     ]
-  }
+  },
+	plugins: [
+		new HtmlwebpackPlugin({
+			title: 'Mind Makers Project',
+			template: 'src/index.html',
+      inject: false
+		})
+	]
 };
 
 if (TARGET === 'start' || !TARGET) {
