@@ -13,6 +13,9 @@ const common = {
   entry: {
     app: PATHS.src
   },
+  resolve: {
+    extensions: ['', '.js', '.jsx']
+  },
   output: {
     path: PATHS.dist,
     filename: 'bundle.js'
@@ -22,6 +25,11 @@ const common = {
       {
         test: /\.css$/,
         loaders: ['style', 'css'],
+        include: PATHS.src
+      },
+      {
+        test: /\.js?$/,
+        loaders: ['babel?cacheDirectory'],
         include: PATHS.src
       }
     ]
