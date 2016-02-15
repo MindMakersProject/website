@@ -1,9 +1,10 @@
 // LOAD STYLES
-require('./base.css');
+import 'style/url!file!./../node_modules/bulma/css/bulma.min.css';
+import './base.css';
+//
+import React from 'react';
+import ReactDOM from 'react-dom';
+//
+import App from './components/App.js';
 
-var testcomp = require('./components/testcomp');
-
-var app = document.createElement('div');
-
-document.body.appendChild(app);
-app.appendChild(testcomp());
+ReactDOM.render(<App />, document.getElementById('app'));

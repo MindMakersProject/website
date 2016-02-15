@@ -4,3 +4,141 @@ body {
   color: #d7d7d7;
   background: #19191a;
 }
+
+body {
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  font-size: 1.2em;
+  color: #d7d7d7;
+  background: #19191a;
+}
+
+#logo {
+  width: 300px;
+}
+
+#mm-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  pointer-events: none;
+}
+
+/* Bulma OVERRIDES*/
+
+h1.title {
+  font-size: 3.2em;
+  font-weight: lighter;
+}
+
+.title + .subtitle {
+  margin-top: 25px;
+  margin-bottom: 65px;
+}
+
+hr {
+  border-top-color: #111;
+}
+
+nav {
+  z-index: 10;
+}
+
+.hero {
+  min-height: 55vh;
+  color: #d7d7d7;
+  background-color: transparent;
+}
+
+.hero-content {
+  margin-top: 15%;
+}
+
+.section + .section {
+  border-top: 1px solid #111;
+}
+
+.footer {
+  color: #d7d7d7;
+  background-color: transparent;
+}
+
+.section {
+  min-height: 100vh;
+  color: #d7d7d7;
+  text-align: justify;
+  background-color: transparent;
+}
+
+.title {
+  color: white;
+}
+
+.subtitle strong, strong {
+  font-weight: 900;
+  color: #b9b582;
+}
+
+.notification {
+  color: white;
+  background: transparent;
+  border-radius: 0;
+}
+
+.card {
+  background: transparent;
+  border: 1px solid #111;
+  box-shadow: none;
+}
+
+.content {
+  text-align: justify;
+}
+
+.card-content > .content > p {
+  font-size: .7em;
+  text-align: left;
+}
+
+a {
+  color: #a1a1a1;
+}
+
+a:hover {
+  color: white;
+}
+
+.button.is-primary {
+  background-color: #a6a1ff;
+}
+
+.button.is-primary:hover {
+  background-color: #837de2;
+}
+
+.button.is-primary.is-outlined {
+  color: #a6a1ff;
+  border-color: #a6a1ff;
+  transition: .4s ease;
+}
+.button.is-primary.is-outlined:hover {
+  color: black;
+  background-color: white;
+  border-color: white;
+}
+
+.tabs.is-toggle li.is-active a {
+  color: #fff;
+  background-color: #a6a1ff;
+  border-color: #a6a1ff;
+}
+
+.image.is-250x250 {
+  width: 250px;
+  height: 250px;
+}
+
+.subtitle.is-4 {
+  color: #a6a1ff;
+}
