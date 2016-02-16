@@ -33,32 +33,32 @@ const common = {
         loaders: ['babel?cacheDirectory'],
         include: PATHS.src
       },
-			{
-				test: /\.(png|jpg)$/,
-				loader: 'url-loader?limit=80000',
-				include: PATHS.src
-			}, {
-		    test: /\.(woff|woff2)(\?v=\d+\.\d+\.\d+)?$/,
-		    loader: 'url?limit=10000&mimetype=application/font-woff&prefix=fonts'
-		  }, {
-		    test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/,
-		    loader: 'url?limit=10000&mimetype=application/octet-stream&prefix=fonts'
-		  }, {
-		    test: /\.eot(\?v=\d+\.\d+\.\d+)?$/,
-		    loader: 'url?limit=10000&mimetype=application/vnd.ms-fontobject&prefix=fonts'
-		  }, {
-		    test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
-		    loader: 'url?limit=10000&mimetype=image/svg+xml&prefix=fonts'
-		  }
+      {
+        test: /\.(png|jpg)$/,
+        loader: 'url-loader?limit=80000',
+        include: PATHS.src
+      }, {
+        test: /\.(woff|woff2)(\?v=\d+\.\d+\.\d+)?$/,
+        loader: 'url?limit=10000&mimetype=application/font-woff&prefix=fonts'
+      }, {
+        test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/,
+        loader: 'url?limit=10000&mimetype=application/octet-stream&prefix=fonts'
+      }, {
+        test: /\.eot(\?v=\d+\.\d+\.\d+)?$/,
+        loader: 'url?limit=10000&mimetype=application/vnd.ms-fontobject&prefix=fonts'
+      }, {
+        test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
+        loader: 'url?limit=10000&mimetype=image/svg+xml&prefix=fonts'
+      }
     ]
   },
-	plugins: [
-		new HtmlwebpackPlugin({
-			title: 'Mind Makers Project',
-			template: 'src/index.html',
+  plugins: [
+    new HtmlwebpackPlugin({
+      title: 'Mind Makers Project',
+      template: 'src/index.html',
       inject: false
-		})
-	]
+    })
+  ]
 };
 
 if (TARGET === 'start' || !TARGET) {
