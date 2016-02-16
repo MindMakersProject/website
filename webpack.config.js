@@ -24,8 +24,8 @@ const common = {
   module: {
     loaders: [
       {
-        test: /\.css$/,
-        loaders: ['style', 'css'],
+        test: /\.scss$/,
+        loaders: ['style', 'css', 'sass'],
         include: PATHS.src
       },
       {

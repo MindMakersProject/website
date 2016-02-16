@@ -1,24 +1,4 @@
-body {
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-  DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
-  /*space*/
-  font-size: 1.2em;
-  color: #d7d7d7;
-  background: #19191a;
-}
-
-.nav-logo {
-  height: 60px;
-}
-
-#mm-canvas {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 0;
-  width: 100%;
-  pointer-events: none;
-}
+@import './settings/_variables.scss';
 
 /* Bulma OVERRIDES*/
 
@@ -42,7 +22,7 @@ nav {
 
 .hero {
   min-height: 55vh;
-  color: #d7d7d7;
+  color: $text-over-dark;
   background-color: transparent;
 }
 
@@ -55,14 +35,14 @@ nav {
 }
 
 .footer {
-  color: #d7d7d7;
+  color: $text-over-dark;
   text-align: center;
   background-color: transparent;
 }
 
 .section {
   min-height: 100vh;
-  color: #d7d7d7;
+  color: $text-over-dark;
   text-align: justify;
   background-color: transparent;
 }
@@ -73,7 +53,7 @@ nav {
 
 .subtitle strong, strong {
   font-weight: 900;
-  color: #b9b582;
+  color: $secondary;
 }
 
 .notification {
@@ -106,16 +86,16 @@ a:hover {
 }
 
 .button.is-primary {
-  background-color: #a6a1ff;
+  background-color: $primary;
 }
 
 .button.is-primary:hover {
-  background-color: #837de2;
+  background-color: $primary-dark;
 }
 
 .button.is-primary.is-outlined {
-  color: #a6a1ff;
-  border-color: #a6a1ff;
+  color: $primary;
+  border-color: $primary;
   transition: .4s ease;
 }
 .button.is-primary.is-outlined:hover {
@@ -126,8 +106,8 @@ a:hover {
 
 .tabs.is-toggle li.is-active a {
   color: #fff;
-  background-color: #a6a1ff;
-  border-color: #a6a1ff;
+  background-color: $primary;
+  border-color: $primary;
 }
 
 .image.is-250x250 {
@@ -136,5 +116,5 @@ a:hover {
 }
 
 .subtitle.is-4 {
-  color: #a6a1ff;
+  color: $primary;
 }

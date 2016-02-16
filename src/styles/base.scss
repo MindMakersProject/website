@@ -1,0 +1,27 @@
+@import './libs/normalize.scss';
+@import './settings/_variables.scss';
+
+body {
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
+  DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  /*space*/
+  font-size: 1.2em;
+  color: $text-over-dark;
+  background: $bg-dark;
+}
+
+.nav-logo {
+  height: 60px;
+}
+
+#mm-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  pointer-events: none;
+}
+
+// BULMA CUSTOMIZATION
+@import './_overrides.scss';

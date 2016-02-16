@@ -1,6 +1,6 @@
 // LOAD STYLES
-import 'style/url!file!./../node_modules/bulma/css/bulma.min.css';
-import './styles/base.css';
+import 'style/url!file!./../node_modules/bulma/css/bulma.css';
+import './styles/base.scss';
 //
 import React from 'react';
 import ReactDOM from 'react-dom';
