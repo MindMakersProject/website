@@ -5,16 +5,16 @@ const Hero = React.createClass({
     return (
       <section id="hero" className="hero">
         <div className="hero-content">
-			    <div className="container">
-						<h1 className="title">
-							THE MIND MAKERS PROJECT
-						</h1>
-			      <h2 className="subtitle">
-			        <strong>Making Mindful Matters, Matter.</strong>
-			      </h2>
-						<a className="button is-primary is-outlined is-large" href="#contact">GET INVOLVED</a>
-			    </div>
-			  </div>
+          <div className="container">
+            <h1 className="title">
+              THE MIND MAKERS PROJECT
+            </h1>
+            <h2 className="subtitle">
+              <strong>Making Mindful Matters, Matter.</strong>
+            </h2>
+            <a className="button is-primary is-outlined is-large" href="#contact">GET INVOLVED</a>
+          </div>
+        </div>
       </section>
     )
   }
