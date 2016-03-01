@@ -2,6 +2,8 @@ const path = require('path');
 const webpack = require('webpack');
 const merge = require('webpack-merge');
 const HtmlwebpackPlugin = require('html-webpack-plugin');
+const autoprefixer = require('autoprefixer');
+const precss = require('precss');
 
 const TARGET = process.env.npm_lifecycle_event;
 
@@ -25,7 +27,7 @@ const common = {
     loaders: [
       {
         test: /\.scss$/,
-        loaders: ['style', 'css', 'sass'],
+        loaders: ['style', 'css', 'postcss'],
         include: PATHS.src
       },
       {
@@ -51,6 +53,9 @@ const common = {
         loader: 'url?limit=10000&mimetype=image/svg+xml&prefix=fonts'
       }
     ]
+  },
+  postcss: function () {
+    return [autoprefixer, precss];
   },
   plugins: [
     new HtmlwebpackPlugin({
