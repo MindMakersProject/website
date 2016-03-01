@@ -5,9 +5,9 @@ const Footer = React.createClass({
     return (
       <footer className="footer">
         <div className="container">
-          <div className="content is-centered">
+          <div className="content">
             <hr/>
-            <p>
+            <p className="is-text-centered">
               <strong>&copy;Mind Makers 2016</strong>
             </p>
           </div>

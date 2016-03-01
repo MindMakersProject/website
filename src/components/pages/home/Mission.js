@@ -5,7 +5,7 @@ const Mission = React.createClass({
     return (
       <section id="mission" className="section">
 		    <div className="container">
-		      <div className="heading is-centered">
+		      <div className="heading is-text-centered">
 		        <h1 className="title">Mission</h1>
 		        <h2 className="subtitle">
 		        	Section <strong>description.</strong>

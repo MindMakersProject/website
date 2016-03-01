@@ -5,7 +5,7 @@ const Team = React.createClass({
     return (
       <section id="team" className="section">
 		    <div className="container">
-		      <div className="heading is-centered">
+		      <div className="heading is-text-centered">
 		        <h1 className="title">Team</h1>
 		        <h2 className="subtitle">
 		          Section <strong>description.</strong>
@@ -47,7 +47,7 @@ const Team = React.createClass({
 		      </article>
 					<br/>
 					<hr/>
-					<p className="subtitle is-4 is-centered">SPONSORS</p>
+					<p className="subtitle is-4 is-text-centered">SPONSORS</p>
 					<br/>
 					<article className="media">
 		        <figure className="media-left">

@@ -5,7 +5,7 @@ const Contact = React.createClass({
     return (
       <section id="contact" className="section">
 		    <div className="container">
-		      <div className="heading is-centered">
+		      <div className="heading is-text-centered">
 		        <h1 className="title">Contact</h1>
 		      </div>
 					<br/>

@@ -5,14 +5,14 @@ const Media = React.createClass({
     return (
       <section id="media" className="section">
 		    <div className="container">
-		      <div className="heading is-centered">
+		      <div className="heading is-text-centered">
 		        <h1 className="title">Media</h1>
 		        <h2 className="subtitle">
 		          Section <strong>description.</strong>
 		        </h2>
 		      </div>
 					<br/>
-					<div className="tabs is-toggle is-centered is-fullwidth">
+					<div className="tabs is-toggle is-text-centered is-fullwidth">
 					  <ul>
 					    <li className="is-active"><a><i className="fa fa-film"></i> Videos</a></li>
 							<li><a><i className="fa fa-camera"></i> Photos</a></li>

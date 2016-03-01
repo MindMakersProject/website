@@ -5,7 +5,7 @@ const Events = React.createClass({
     return (
       <section id="events" className="section">
 		    <div className="container">
-		      <div className="heading is-centered">
+		      <div className="heading is-text-centered">
 		        <h1 className="title">Events</h1>
 		        <h2 className="subtitle">
 		          Section <strong>description.</strong>
@@ -19,7 +19,7 @@ const Events = React.createClass({
 					  <div className="card-content">
 					    <div className="media">
 					      <div className="media-content">
-					        <p className="title is-6 is-centered"><strong>Mind Makers Meet the Girl Scouts</strong></p>
+					        <p className="title is-6 is-text-centered"><strong>Mind Makers Meet the Girl Scouts</strong></p>
 					      </div>
 					    </div>
 					    <div className="content">
