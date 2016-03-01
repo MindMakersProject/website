@@ -27,7 +27,7 @@ const common = {
     loaders: [
       {
         test: /\.scss$/,
-        loaders: ['style', 'css', 'postcss'],
+        loaders: ['style', 'css', 'postcss', 'sass'],
         include: PATHS.src
       },
       {
