@@ -4,8 +4,8 @@
   "description": "The Mind Makers Project Website",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server",
-    "build": "webpack"
+    "start": "./node_modules/.bin/webpack-dev-server",
+    "build": "./node_modules/.bin/webpack"
   },
   "repository": {
     "type": "git",
