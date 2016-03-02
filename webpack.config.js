@@ -2,6 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 const merge = require('webpack-merge');
 const HtmlwebpackPlugin = require('html-webpack-plugin');
+const postcssImport = require('postcss-import');
 const autoprefixer = require('autoprefixer');
 const precss = require('precss');
 
@@ -54,8 +55,8 @@ const common = {
       }
     ]
   },
-  postcss: function () {
-    return [autoprefixer, precss];
+  postcss: function (webpack) {
+    return [autoprefixer, precss, postcssImport({addDependencyTo: webpack})];
   },
   plugins: [
     new HtmlwebpackPlugin({
