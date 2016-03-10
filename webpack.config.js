@@ -56,7 +56,7 @@ const common = {
       }
     ]
   },
-  postcss: function (webpack) {
+  postcss: function ( webpack ) {
     return [autoprefixer, precss, postcssImport({addDependencyTo: webpack}), postcssUrl({})];
   },
   plugins: [
@@ -68,8 +68,8 @@ const common = {
   ]
 };
 
-if (TARGET === 'start' || !TARGET) {
-  module.exports = merge(common, {
+if ( TARGET === 'start' || !TARGET ) {
+  module.exports = merge( common, {
     devtool: 'eval-source-map',
     devServer: {
       contentBase: PATHS.dist,
@@ -84,5 +84,11 @@ if (TARGET === 'start' || !TARGET) {
     plugins: [
       new webpack.HotModuleReplacementPlugin()
     ]
+  });
+}
+
+if ( TARGET === 'build' || !TARGET ) {
+  module.exports = merge( module, {
+    // add code for dist build
   });
 }
