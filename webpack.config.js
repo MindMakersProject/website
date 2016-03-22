@@ -1,18 +1,18 @@
-const path = require('path');
-const webpack = require('webpack');
-const merge = require('webpack-merge');
-const HtmlwebpackPlugin = require('html-webpack-plugin');
-const postcssImport = require('postcss-import');
-const postcssUrl = require('postcss-url');
-const autoprefixer = require('autoprefixer');
-const precss = require('precss');
+const path = require('path')
+const webpack = require('webpack')
+const merge = require('webpack-merge')
+const HtmlwebpackPlugin = require('html-webpack-plugin')
+const postcssImport = require('postcss-import')
+const postcssUrl = require('postcss-url')
+const autoprefixer = require('autoprefixer')
+const precss = require('precss')
 
-const TARGET = process.env.npm_lifecycle_event;
+const TARGET = process.env.npm_lifecycle_event
 
 const PATHS = {
   src: path.join(__dirname, 'src'),
   dist: path.join(__dirname, 'dist')
-};
+}
 
 const common = {
   entry: {
@@ -56,8 +56,8 @@ const common = {
       }
     ]
   },
-  postcss: function ( webpack ) {
-    return [autoprefixer, precss, postcssImport({addDependencyTo: webpack}), postcssUrl({})];
+  postcss: function (webpack) {
+    return [autoprefixer, precss, postcssImport({addDependencyTo: webpack}), postcssUrl({})]
   },
   plugins: [
     new HtmlwebpackPlugin({
@@ -66,10 +66,10 @@ const common = {
       inject: false
     })
   ]
-};
+}
 
-if ( TARGET === 'start' || !TARGET ) {
-  module.exports = merge( common, {
+if (TARGET === 'start' || !TARGET) {
+  module.exports = merge(common, {
     devtool: 'eval-source-map',
     devServer: {
       contentBase: PATHS.dist,
@@ -84,11 +84,11 @@ if ( TARGET === 'start' || !TARGET ) {
     plugins: [
       new webpack.HotModuleReplacementPlugin()
     ]
-  });
+  })
 }
 
-if ( TARGET === 'build' || !TARGET ) {
-  module.exports = merge( module, {
+if (TARGET === 'build' || !TARGET) {
+  module.exports = merge(module, {
     // add code for dist build
-  });
+  })
 }
