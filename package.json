@@ -40,7 +40,7 @@
     "webpack-merge": "^0.8.3"
   },
   "dependencies": {
-    "bulma": "0.0.16",
+    "bulma": "0.0.17",
     "font-awesome": "^4.5.0",
     "react": "^0.14.7",
     "react-dom": "^0.14.7"
