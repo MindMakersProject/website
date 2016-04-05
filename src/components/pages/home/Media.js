@@ -1,6 +1,13 @@
 import React from 'react'
+import $ from 'jquery'
 
 const Media = React.createClass({
+  handleClick: function(){
+    $("li").click(function() {
+      $("li").removeClass("is-active");
+      $(this).addClass("is-active");
+    });
+  },
   render () {
     return (
       <section id='media' className='section'>
@@ -13,10 +20,11 @@ const Media = React.createClass({
           </div>
           <br/>
           <div className='tabs is-toggle is-text-centered is-fullwidth'>
+
             <ul>
-              <li className='is-active'><a><i className='fa fa-film'></i> Videos</a></li>
-              <li><a><i className='fa fa-camera'></i> Photos</a></li>
-              <li><a><i className='fa fa-file-text-o'></i> Documents</a></li>
+              <li onClick={this.handleClick} className='is-active' id='film'><a><i className='fa fa-film'></i> Videos</a></li>
+              <li onClick={this.handleClick} ><a><i className='fa fa-camera'></i> Photos</a></li>
+              <li onClick={this.handleClick} ><a><i className='fa fa-file-text-o'></i> Documents</a></li>
             </ul>
           </div>
           <p className='image is-16by9'>
