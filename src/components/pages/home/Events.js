@@ -14,7 +14,7 @@ const Events = React.createClass({
           <br/>
           <div className='card'>
             <figure className='card-image is-square'>
-              <img src='http://static1.squarespace.com/static/566879201c12100a72ccd165/t/56bf65d2a3360cc6a14b15f5/1455384061734/Javabots?format=500w' alt=''/>
+              <img src={require('./../../../assets/images/Javabots.png')} alt=''/>
                 </figure>
                 <div className='card-content'>
                   <div className='media'>
