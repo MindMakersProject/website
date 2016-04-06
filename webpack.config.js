@@ -38,7 +38,7 @@ const common = {
         include: PATHS.src
       },
       {
-        test: /\.(png|jpg)$/,
+        test: /\.(png|jpg|jpeg)$/,
         loader: 'url-loader?limit=80000',
         include: PATHS.src
       }, {
@@ -88,7 +88,7 @@ if (TARGET === 'start' || !TARGET) {
 }
 
 if (TARGET === 'build' || !TARGET) {
-  module.exports = merge(module, {
+  module.exports = merge(common, {
     // add code for dist build
   })
 }
