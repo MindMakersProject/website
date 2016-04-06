@@ -15,7 +15,7 @@ const Team = React.createClass({
           <article className='media'>
             <figure className='media-left'>
               <p className='image is-250x250'>
-                <img src='http://static1.squarespace.com/static/566879201c12100a72ccd165/t/566a268140667acc25b08e9e/1449797279473/?format=300w'/>
+                <img src={require('./../../../assets/images/MichelleEaster.png')} />
               </p>
             </figure>
             <div className='media-content'>
@@ -32,7 +32,7 @@ const Team = React.createClass({
           <article className='media'>
             <figure className='media-left'>
               <p className='image is-250x250'>
-                <img src='http://static1.squarespace.com/static/566879201c12100a72ccd165/t/566b3c85cbced62f3780cb42/1449868422119/?format=300w'/>
+                <img src={require('./../../../assets/images/IsisAnchalee.png')} />
               </p>
             </figure>
             <div className='media-content'>
@@ -52,7 +52,7 @@ const Team = React.createClass({
           <article className='media'>
             <figure className='media-left'>
               <p className='image is-250x250'>
-                <img src='http://static1.squarespace.com/static/566879201c12100a72ccd165/t/566b67fe69a91af72b2b61b0/1449879551325/?format=300w'/>
+                <img src={require('./../../../assets/images/EricEspinosa.png')} />
               </p>
             </figure>
             <div className='media-content'>
