@@ -1,13 +1,26 @@
 import React from 'react'
-import $ from 'jquery'
+import Tabs from './../../layout/Tabs.js'
+import Content from './../media/Content.js'
+
+const tabList = [
+    { 'id': 0, 'name': 'Videos', 'class': 'fa fa-film', 'slug': 'film'},
+    { 'id': 1, 'name': 'Photos', 'class': 'fa fa-camera', 'slug': 'photos'},
+    { 'id': 2, 'name': 'Documents', 'class': 'fa fa-file-text-o', 'slug': 'documents'}
+];
 
 const Media = React.createClass({
-  handleClick: function(){
-    $("li").click(function() {
-      $("li").removeClass("is-active");
-      $(this).addClass("is-active");
-    });
+  getInitialState() {
+    return {
+      tabs: tabList,
+      activeIndex: 0
+    }
   },
+
+  changeTab(tab) {
+    this.setState({ activeIndex: tab.id });
+    console.log(`somebody call for ${tab.id}`)
+  },
+
   render () {
     return (
       <section id='media' className='section'>
@@ -20,24 +33,15 @@ const Media = React.createClass({
           </div>
           <br/>
           <div className='tabs is-toggle is-text-centered is-fullwidth'>
-
-            <ul>
-              <li onClick={this.handleClick} className='is-active' id='film'><a><i className='fa fa-film'></i> Videos</a></li>
-              <li onClick={this.handleClick} ><a><i className='fa fa-camera'></i> Photos</a></li>
-              <li onClick={this.handleClick} ><a><i className='fa fa-file-text-o'></i> Documents</a></li>
-            </ul>
+            <Tabs
+              activeIndex={this.state.activeIndex}
+              changeTab={this.changeTab}
+              tabList={tabList}
+            />
           </div>
-          <p className='image is-16by9'>
-            <img src='http://placehold.it/960x540'/>
-          </p>
-          <br/>
-          <p>
-            We are all about the power of teamwork and knowledge-sharing! The Mind Makers motivation and project plan was announced at the December 18th TEDxLA Salon event and the founding members took the opportunity to show by example how new skills can be passed from engineers to anyone willing to learn. To launch the initiative, the team made magic by learning how to lay out and solder circuits to make RF controlled LED bows and bow ties. Check out the video to see them exchange skills and discuss why they care about making mindful matters, matter.
-          </p>
-          <br/>
-          <p>
-            Stay tuned to see Michelle's talk, where their skills are revealed to the unsuspecting but now believing TEDx audience!
-          </p>
+          <Content 
+            activeIndex={this.state.activeIndex}
+          />
         </div>
       </section>
     )
