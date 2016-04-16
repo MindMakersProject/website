@@ -42,6 +42,7 @@
   "dependencies": {
     "bulma": "0.0.17",
     "font-awesome": "^4.5.0",
+    "gsap": "^1.18.2",
     "jquery": "^2.2.2",
     "react": "^15.0.0",
     "react-dom": "^15.0.0"
