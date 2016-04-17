@@ -18,7 +18,6 @@ const Media = React.createClass({
 
   changeTab(tab) {
     this.setState({ activeIndex: tab.id });
-    console.log(`somebody call for ${tab.id}`)
   },
 
   render () {
@@ -39,7 +38,8 @@ const Media = React.createClass({
               tabList={tabList}
             />
           </div>
-          <Content 
+          <Content
+            className='media-content'
             activeIndex={this.state.activeIndex}
           />
         </div>

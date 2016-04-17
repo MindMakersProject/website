@@ -40,10 +40,12 @@
     "webpack-merge": "^0.8.3"
   },
   "dependencies": {
+    "axios": "^0.9.1",
     "bulma": "0.0.17",
     "font-awesome": "^4.5.0",
     "gsap": "^1.18.2",
     "jquery": "^2.2.2",
+    "query-string": "^4.1.0",
     "react": "^15.0.0",
     "react-dom": "^15.0.0"
   }

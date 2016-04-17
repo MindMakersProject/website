@@ -3,6 +3,9 @@ import React from 'react'
 import logo from './../../assets/mm-logo.png'
 
 const Navbar = React.createClass({
+  getInitialState() {
+    return { collapsed: false }
+  },
   render () {
     return (
       <nav className='navbar'>
