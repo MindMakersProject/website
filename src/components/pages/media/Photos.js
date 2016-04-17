@@ -35,20 +35,18 @@ const Photos = React.createClass({
  },
   render(){
     return (
+      <div className='media-content'>
+       <p className='title is-6 is-text-centered'><strong>
+         Follow us on Instagram <a href='http://www.instagram.com/mindmakersproject'>@MINDMAKERSPROJECT </a>
+       </strong></p>
        <div className="image is-16x9">
           <PictureGrid
             imagesArray={this.state.images}
             columns={this.state.columns}
             padding={this.state.padding} 
           />
-         <br/>
-         <br/>
-         <div className='media-content'>
-          <p className='title is-6 is-text-centered'><strong>
-            Follow us on Instagram <a href='http://www.instagram.com/mindmakersproject'>@MINDMAKERSPROJECT </a>
-          </strong></p>
-         </div>
-         <br/>
+          <br/>
+       </div>
        </div>
     )
   }
