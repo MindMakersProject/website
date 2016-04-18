@@ -2,12 +2,12 @@ import React from 'react'
 
 const team = [
   {
-    src: "http://static1.squarespace.com/static/566879201c12100a72ccd165/t/566b3c85cbced62f3780cb42/1449868422119/"
-    name: "Michelle Easter"
-    role: "Founder"
-    description: "After working as a fashion model for years in the US, Europe, Asia and the Middle East, Michelle started college from scratch at the age of 26. She finished at the top of her class with a degree in Mechanical Engineering and now works as a Mechatronics Engineer for NASA's Jet Propulsion Laboratory. She believes strongly in the role of mentorship in providing a platform for success, and is passionate about sharing her education to empower people from all backgrounds. Michelle cares deeply about outreach and exposing children to atypical and minority role models with technical backgrounds."
+    src: 'http://static1.squarespace.com/static/566879201c12100a72ccd165/t/566b3c85cbced62f3780cb42/1449868422119/',
+    name: 'Michelle Easter',
+    role: 'Founder',
+    description: 'After working as a fashion model for years in the US, Europe, Asia and the Middle East, Michelle started college from scratch at the age of 26. She finished at the top of her class with a degree in Mechanical Engineering and now works as a Mechatronics Engineer for NASA\'s Jet Propulsion Laboratory. She believes strongly in the role of mentorship in providing a platform for success, and is passionate about sharing her education to empower people from all backgrounds. Michelle cares deeply about outreach and exposing children to atypical and minority role models with technical backgrounds.'
   }
-];
+]
 
 const Team = React.createClass({
   render () {
