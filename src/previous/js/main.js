@@ -1,4 +1,8 @@
-'use-strict';
+'use-strict'
+
+import GSAP from 'gsap'
+import RAF from './rAF.js'
+
 const Particles =  {
 
   load: (function() {

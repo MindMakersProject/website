@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Contact = React.createClass({
-  getInitialState() {
+  getInitialState () {
     return {
       firstName: '',
       lastName: '',
@@ -10,32 +10,32 @@ const Contact = React.createClass({
       message: ''
     }
   },
-  handleFirstNameChange: function(e) {
-    this.setState({firstName: e.target.value});
+  handleFirstNameChange: function (e) {
+    this.setState({firstName: e.target.value})
   },
-  handleLastNameChange: function(e) {
-    this.setState({lastName: e.target.value});
+  handleLastNameChange: function (e) {
+    this.setState({lastName: e.target.value})
   },
-  handleEmailChange: function(e) {
-    this.setState({email: e.target.value});
+  handleEmailChange: function (e) {
+    this.setState({email: e.target.value})
   },
-  handleSubjectChange: function(e) {
-    this.setState({subject: e.target.value});
+  handleSubjectChange: function (e) {
+    this.setState({subject: e.target.value})
   },
-    handleMessageChange: function(e) {
-    this.setState({message: e.target.value});
+  handleMessageChange: function (e) {
+    this.setState({message: e.target.value})
   },
-  handleSubmit(e) {
-     e.preventDefault();
+  handleSubmit (e) {
+    e.preventDefault()
 
-     const payload = {
+    const payload = {
       firstName: this.state.firstName,
       lastName: this.state.lastName,
       email: this.state.email,
       subject: this.state.subject,
       message: this.state.message
-     }
-     window.analytics.identify(payload);
+    }
+    window.analytics.identify(payload)
   },
   render () {
     return (
@@ -75,7 +75,7 @@ const Contact = React.createClass({
               />
             </p>
             <p className='control column is-half'>
-              <input 
+              <input
                 className='input'
                 type='text'
                 placeholder='Last Name'
@@ -88,13 +88,13 @@ const Contact = React.createClass({
             <input
               className='input'
               type='email'
-              placeholder='Email' 
+              placeholder='Email'
               value={this.state.email}
               onChange={this.handleEmailChange}
             />
           </p>
           <p className='control'>
-            <input 
+            <input
               className='input'
               type='text'
               placeholder='Subject'
@@ -105,7 +105,7 @@ const Contact = React.createClass({
           <p className='control'>
             <textarea
               className='textarea'
-              placeholder='Message' 
+              placeholder='Message'
               value={this.state.message}
               onChange={this.handleMessageChange}
             ></textarea>

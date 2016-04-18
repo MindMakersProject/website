@@ -3,7 +3,7 @@ import React from 'react'
 import logo from './../../assets/mm-logo.png'
 
 const Navbar = React.createClass({
-  getInitialState() {
+  getInitialState () {
     return { collapsed: false }
   },
   render () {

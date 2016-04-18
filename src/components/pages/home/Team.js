@@ -1,5 +1,6 @@
 import React from 'react'
 
+// Example data structure that could be used to dynamically generate the below team section
 const team = [
   {
     src: 'http://static1.squarespace.com/static/566879201c12100a72ccd165/t/566b3c85cbced62f3780cb42/1449868422119/',
