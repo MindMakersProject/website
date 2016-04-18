@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const Photo = ({ title, url, width, padding, link = url }) => {
   const styles = {
@@ -7,7 +7,7 @@ const Photo = ({ title, url, width, padding, link = url }) => {
       width: `${width}%`,
       boxSizing: 'border-box',
       float: 'left',
-      padding,
+      padding
     },
     imageWrapper: {
       position: 'relative',
@@ -17,25 +17,25 @@ const Photo = ({ title, url, width, padding, link = url }) => {
       backgroundSize: 'cover',
       backgroundColor: 'none',
       backgroundPosition: 'center center',
-      backgroundRepeat: 'no-repeat',
-    },
-  };
+      backgroundRepeat: 'no-repeat'
+    }
+  }
 
   return (
-    <div className="imageGridItem" style={styles.imageGridItem}>
+    <div className='imageGridItem' style={styles.imageGridItem}>
       <a href={link}>
-        <div className="imageWrapper" style={styles.imageWrapper}></div>
+        <div className='imageWrapper' style={styles.imageWrapper}></div>
       </a>
     </div>
-  );
-};
+  )
+}
 
 Photo.propTypes = {
   url: React.PropTypes.string.isRequired,
   link: React.PropTypes.string.isRequired,
   width: React.PropTypes.number.isRequired,
   padding: React.PropTypes.number,
-  title: React.PropTypes.string,
-};
+  title: React.PropTypes.string
+}
 
-export default Photo;
+export default Photo

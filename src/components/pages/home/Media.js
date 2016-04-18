@@ -3,21 +3,21 @@ import Tabs from './../../layout/Tabs.js'
 import Content from './../media/Content.js'
 
 const tabList = [
-    { 'id': 0, 'name': 'Videos', 'class': 'fa fa-film', 'slug': 'film'},
-    { 'id': 1, 'name': 'Photos', 'class': 'fa fa-camera', 'slug': 'photos'},
-    { 'id': 2, 'name': 'Documents', 'class': 'fa fa-file-text-o', 'slug': 'documents'}
-];
+    {'id': 0, 'name': 'Videos', 'class': 'fa fa-film', 'slug': 'film'},
+    {'id': 1, 'name': 'Photos', 'class': 'fa fa-camera', 'slug': 'photos'},
+    {'id': 2, 'name': 'Documents', 'class': 'fa fa-file-text-o', 'slug': 'documents'}
+]
 
 const Media = React.createClass({
-  getInitialState() {
+  getInitialState () {
     return {
       tabs: tabList,
       activeIndex: 0
     }
   },
 
-  changeTab(tab) {
-    this.setState({ activeIndex: tab.id });
+  changeTab (tab) {
+    this.setState({ activeIndex: tab.id })
   },
 
   render () {
