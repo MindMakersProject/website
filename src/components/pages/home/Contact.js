@@ -1,6 +1,42 @@
 import React from 'react'
 
 const Contact = React.createClass({
+  getInitialState() {
+    return {
+      firstName: '',
+      lastName: '',
+      email: '',
+      subject: '',
+      message: ''
+    }
+  },
+  handleFirstNameChange: function(e) {
+    this.setState({firstName: e.target.value});
+  },
+  handleLastNameChange: function(e) {
+    this.setState({lastName: e.target.value});
+  },
+  handleEmailChange: function(e) {
+    this.setState({email: e.target.value});
+  },
+  handleSubjectChange: function(e) {
+    this.setState({subject: e.target.value});
+  },
+    handleMessageChange: function(e) {
+    this.setState({message: e.target.value});
+  },
+  handleSubmit(e) {
+     e.preventDefault();
+
+     const payload = {
+      firstName: this.state.firstName,
+      lastName: this.state.lastName,
+      email: this.state.email,
+      subject: this.state.subject,
+      message: this.state.message
+     }
+     window.analytics.identify(payload);
+  },
   render () {
     return (
       <section id='contact' className='section'>
@@ -27,27 +63,55 @@ const Contact = React.createClass({
             If you have technical knowledge and want to share your experience by lesson planning, teaching or workshop mentoring for introductory software, mechanical and electrical engineering concepts:
           </p>
           <br/>
-          <p><strong>Please add 'Engineering Volunteer' to the subject line.</strong></p>
           <hr/>
           <div className='columns'>
             <p className='control column is-half'>
-              <input className='input' type='text' placeholder='First Name'disabled/>
+              <input
+                className='input'
+                type='text'
+                placeholder='First Name'
+                value={this.state.firstName}
+                onChange={this.handleFirstNameChange}
+              />
             </p>
             <p className='control column is-half'>
-              <input className='input' type='text' placeholder='Last Name'disabled/>
+              <input 
+                className='input'
+                type='text'
+                placeholder='Last Name'
+                value={this.state.lastName}
+                onChange={this.handleLastNameChange}
+              />
             </p>
           </div>
           <p className='control'>
-            <input className='input' type='email' placeholder='Email'disabled/>
+            <input
+              className='input'
+              type='email'
+              placeholder='Email' 
+              value={this.state.email}
+              onChange={this.handleEmailChange}
+            />
           </p>
           <p className='control'>
-            <input className='input' type='text' placeholder='Subject'disabled/>
+            <input 
+              className='input'
+              type='text'
+              placeholder='Subject'
+              value={this.state.subject}
+              onChange={this.handleSubjectChange}
+            />
           </p>
           <p className='control'>
-            <textarea className='textarea' placeholder='Message' disabled></textarea>
+            <textarea
+              className='textarea'
+              placeholder='Message' 
+              value={this.state.message}
+              onChange={this.handleMessageChange}
+            ></textarea>
           </p>
           <p className='control'>
-            <button className='button is-primary' disabled>Submit</button>
+            <button className='button is-primary' onClick={this.handleSubmit}>Submit</button>
           </p>
         </div>
       </section>

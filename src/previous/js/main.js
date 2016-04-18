@@ -1,5 +1,7 @@
-(function () {
-  'use-strict';
+'use-strict';
+const Particles =  {
+
+  load: (function() {
 
   var width, height, largeHeader, canvas, ctx, points, target, animateHeader = true;
 
@@ -79,7 +81,8 @@
   }
 
   function mouseMove(e) {
-    var posx = posy = 0;
+    let posx = 0;
+    let posy = 0;
     if (e.pageX || e.pageY) {
       posx = e.pageX;
       posy = e.pageY;
@@ -183,4 +186,8 @@
       return Math.pow(p1.x - p2.x, 2) + Math.pow(p1.y - p2.y, 2);
     }
 
-  })();
+  })
+
+  };
+
+export default Particles
