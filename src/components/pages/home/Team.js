@@ -1,83 +1,127 @@
 import React from 'react'
-
-// Example data structure that could be used to dynamically generate the below team section
-const team = [
-  {
-    src: 'http://static1.squarespace.com/static/566879201c12100a72ccd165/t/566b3c85cbced62f3780cb42/1449868422119/',
-    name: 'Michelle Easter',
-    role: 'Founder',
-    description: 'After working as a fashion model for years in the US, Europe, Asia and the Middle East, Michelle started college from scratch at the age of 26. She finished at the top of her class with a degree in Mechanical Engineering and now works as a Mechatronics Engineer for NASA\'s Jet Propulsion Laboratory. She believes strongly in the role of mentorship in providing a platform for success, and is passionate about sharing her education to empower people from all backgrounds. Michelle cares deeply about outreach and exposing children to atypical and minority role models with technical backgrounds.'
-  }
-]
+import TeamMember from './../media/TeamMember.js'
+import team from './../media/team.js'
 
 const Team = React.createClass({
   render () {
+    const teams = team.filter(function (member) { return member.type === 'Team' })
+    const sponsors = team.filter(function (member) { return member.type === 'Sponsor' })
+    const volunteers = team.filter((member) => { return member.type === 'Volunteer Coordinator' })
+    const techLeaders = team.filter((member) => { return member.type === 'Technical Leader' })
+    const designers = team.filter((member) => { return member.type === 'Designer' })
+    const codePathers = team.filter((member) => { return member.type === 'Codepath' })
+    const teamNodes = teams.map((arr, index) => {
+      return (
+        <TeamMember
+          key={index}
+          src={arr.src}
+          name={arr.name}
+          role={arr.role}
+          type={arr.type}
+          description={arr.description}
+        />
+      )
+    })
+    const sponsorNodes = sponsors.map((arr, index) => {
+      return (
+        <TeamMember
+          key={index}
+          src={arr.src}
+          name={arr.name}
+          role={arr.role}
+          type={arr.type}
+          description={arr.description}
+        />
+      )
+    })
+    const volunteerNodes = volunteers.map((arr, index) => {
+      return (
+        <TeamMember
+          key={index}
+          src={arr.src}
+          name={arr.name}
+          role={arr.role}
+          type={arr.type}
+          description={arr.description}
+        />
+      )
+    })
+    const codepathNodes = codePathers.map((arr, index) => {
+      return (
+        <TeamMember
+          key={index}
+          src={arr.src}
+          name={arr.name}
+          role={arr.role}
+          type={arr.type}
+          description={arr.description}
+        />
+      )
+    })
+    const techNodes = techLeaders.map((arr, index) => {
+      return (
+        <TeamMember
+          key={index}
+          src={arr.src}
+          name={arr.name}
+          role={arr.role}
+          type={arr.type}
+          description={arr.description}
+        />
+      )
+    })
+    const designerNodes = designers.map((arr, index) => {
+      return (
+        <TeamMember
+          key={index}
+          src={arr.src}
+          name={arr.name}
+          role={arr.role}
+          type={arr.type}
+          description={arr.description}
+        />
+      )
+    })
+
     return (
       <section id='team' className='section'>
         <div className='container'>
           <div className='heading is-text-centered'>
-            <h1 className='title'>Team</h1>
-            <h2 className='subtitle'>
-              Section <strong>description.</strong>
-            </h2>
+            <br />
+            <h1 className='title'>Meet Our <strong>Team</strong></h1>
           </div>
+          {teamNodes}
+          <br />
+          <div className='heading is-text-centered'>
+            <h1 className='title'>Our Sponsors</h1>
+          </div>
+          {sponsorNodes}
+          <br />
+          <div className='heading is-text-centered'>
+            <h1 className='title'>Volunteer Coordinators</h1>
+          </div>
+          {volunteerNodes}
+          <br />
+          <div className='heading is-text-centered'>
+            <h1 className='title'>Technical Leaders</h1>
+          </div>
+          {techNodes}
+          <br />
+          <div className='heading is-text-centered'>
+            <h1 className='title'>Codepath</h1>
+            <p>CodePath is proud to partner with Mind Makers to develop a world class curriculum aligned with current industry standards. They see this as an opportunity to inspire new and diverse groups of professionals to pursue careers in engineering while creating real paths to proficiency.</p>
+          </div>
+          <br />
+          {codepathNodes}
+          <br />
+          <div className='heading is-text-centered'>
+            <h1 className='title'>Designers</h1>
+          </div>
+          {designerNodes}
           <br/>
-          <article className='media'>
-            <figure className='media-left'>
-              <p className='image is-250x250'>
-                <img src={require('./../../../assets/images/MichelleEaster.png')} />
-              </p>
-            </figure>
-            <div className='media-content'>
-              <div className='content'>
-                <p>
-                  <strong>Michelle Easter. Founder.</strong>
-                  <br/>
-                  After working as a fashion model for years in the US, Europe, Asia and the Middle East, Michelle started college from scratch at the age of 26. She finished at the top of her class with a degree in Mechanical Engineering and now works as a Mechatronics Engineer for NASA's Jet Propulsion Laboratory. She believes strongly in the role of mentorship in providing a platform for success, and is passionate about sharing her education to empower people from all backgrounds. Michelle cares deeply about outreach and exposing children to atypical and minority role models with technical backgrounds.
-                </p>
-              </div>
-            </div>
-          </article>
-          <br/>
-          <article className='media'>
-            <figure className='media-left'>
-              <p className='image is-250x250'>
-                <img src={require('./../../../assets/images/IsisAnchalee.png')} />
-              </p>
-            </figure>
-            <div className='media-content'>
-              <div className='content'>
-                <p>
-                  <strong>Isis Anchalee. Advisor.</strong>
-                  <br/>
-                  After working as a fashion model for years in the US, Europe, Asia and the Middle East, Michelle started college from scratch at the age of 26. She finished at the top of her class with a degree in Mechanical Engineering and now works as a Mechatronics Engineer for NASA's Jet Propulsion Laboratory. She believes strongly in the role of mentorship in providing a platform for success, and is passionate about sharing her education to empower people from all backgrounds. Michelle cares deeply about outreach and exposing children to atypical and minority role models with technical backgrounds.
-                </p>
-              </div>
-            </div>
-          </article>
-          <br/>
-          <hr/>
-          <p className='subtitle is-4 is-text-centered'>SPONSORS</p>
-          <br/>
-          <article className='media'>
-            <figure className='media-left'>
-              <p className='image is-250x250'>
-                <img src={require('./../../../assets/images/EricEspinosa.png')} />
-              </p>
-            </figure>
-            <div className='media-content'>
-              <div className='content'>
-                <p>
-                  <strong>Eric Espinosa. Advisor &amp Sponsor.</strong>
-                  <br/>
-                  After working as a fashion model for years in the US, Europe, Asia and the Middle East, Michelle started college from scratch at the age of 26. She finished at the top of her class with a degree in Mechanical Engineering and now works as a Mechatronics Engineer for NASA's Jet Propulsion Laboratory. She believes strongly in the role of mentorship in providing a platform for success, and is passionate about sharing her education to empower people from all backgrounds. Michelle cares deeply about outreach and exposing children to atypical and minority role models with technical backgrounds.
-                </p>
-              </div>
-            </div>
-          </article>
         </div>
       </section>
-    )
+      )
   }
 })
 

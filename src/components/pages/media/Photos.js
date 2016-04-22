@@ -6,6 +6,9 @@ const Photos = React.createClass({
   getInitialState () {
     return { columns: 5, padding: 5, images: [], loading: true }
   },
+  componentWillMount () {
+    this.updateColumns()
+  },
   componentDidMount () {
     const self = this
     // Url for last 15 instagram posts
@@ -26,7 +29,21 @@ const Photos = React.createClass({
       // Update the component's state. This will trigger a render.
       // adding images and setting loading to false
       self.setState({ images: images, loading: false })
+      window.addEventListener('resize', this.updateColumns)
     })
+  },
+  componentWillUnmount () {
+    window.removeEventListener('resize', this.updateColumns)
+  },
+  updateColumns () {
+    const self = this
+    let w = window
+    let d = document
+    let documentElement = d.documentElement
+    let body = d.getElementsByTagName('body')[0]
+    let width = w.innerWidth || documentElement.clientWidth || body.clientWidth
+
+    if (width < 580) self.setState({columns: 3})
   },
   render () {
     return (
