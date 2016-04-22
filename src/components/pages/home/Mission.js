@@ -8,12 +8,12 @@ const Mission = React.createClass({
           <div className='heading is-text-centered'>
             <h1 className='title'>Mission</h1>
             <h2 className='subtitle'>
-              Section <strong>description.</strong>
+              <strong>Making Mindful Matters, Matter.</strong>
             </h2>
           </div>
           <br/>
           <p>
-            With the support of TEDx, and other influential community organizations, we would like to  introduce “Mind Makers”, an unconventional educational initiative created by a NASA JPL engineer to help expand the future of the STEM field community.
+            With the support of TEDx, and other influential community organizations, we would like to introduce “Mind Makers”, an unconventional educational initiative created by a NASA JPL engineer to help expand the future of the STEM field community.
           </p>
           <br/>
           <p>
@@ -31,6 +31,10 @@ const Mission = React.createClass({
           <p>
             Together, we can empower all generations with the gifts of knowledge and show that impactful people are everywhere around us.
           </p>
+        </div>
+        <br />
+        <div>
+          <img className='logos' src='http://static1.squarespace.com/static/566879201c12100a72ccd165/t/5671d54ca12f44b15d742cb7/1450300750178/?format=1000w' />
         </div>
       </section>
     )

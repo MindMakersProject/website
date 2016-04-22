@@ -15,9 +15,9 @@ const Home = React.createClass({
         <Hero />
         <Mission />
         <Team />
-        <Events />
         <Media />
         <Contact />
+        <Events />
       </section>
     )
   }

@@ -1,7 +1,7 @@
 import React from 'react'
 import Photo from './Photo'
 
-const PictureGrid = ({ imagesArray, padding, columns = 5 }) => {
+const PictureGrid = ({ imagesArray, padding, columns }) => {
   const width = Math.floor(100 / columns)
 
   const imageNodes = imagesArray.map((arr, index) => {

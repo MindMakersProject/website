@@ -26,12 +26,9 @@ const Media = React.createClass({
         <div className='container'>
           <div className='heading is-text-centered'>
             <h1 className='title'>Media</h1>
-            <h2 className='subtitle'>
-              Section <strong>description.</strong>
-            </h2>
           </div>
           <br/>
-          <div className='tabs is-toggle is-text-centered is-fullwidth'>
+          <div className='tabs is-toggle is-centered is-fullwidth'>
             <Tabs
               activeIndex={this.state.activeIndex}
               changeTab={this.changeTab}
