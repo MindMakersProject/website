@@ -12,7 +12,7 @@ const Hero = React.createClass({
         <div className='hero-content'>
           <div className='container'>
             <h1 className='title'>
-              THE MIND MAKERS PROJECT
+              MIND MAKERS
             </h1>
             <h2 className='subtitle'>
               <strong>Making Mindful Matters, Matter.</strong>
