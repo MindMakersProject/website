@@ -1,5 +1,5 @@
 import React from 'react'
-//
+// TODO: Add scroll-to easing animation, make navigation sticky (since it is a SPA)
 import logo from './../../assets/mm-logo.png'
 
 const Navbar = React.createClass({
@@ -10,10 +10,10 @@ const Navbar = React.createClass({
     return (
       <nav className='navbar'>
         <p className='navbar-item is-text-centered'>
-          <a className='link is-info' href='#top'>Home</a>
+          <a className='link is-info' href='#about'>Home</a>
         </p>
         <p className='navbar-item is-text-centered'>
-          <a className='link is-info' href='#mission'>Mission</a>
+          <a className='link is-info' href='#about'>Mission</a>
         </p>
         <p className='navbar-item is-text-centered'>
           <a className='link is-info' href='#team'>Team</a>

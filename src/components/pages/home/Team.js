@@ -88,7 +88,9 @@ const Team = React.createClass({
         <div className='container'>
           <div className='heading is-text-centered'>
             <br />
-            <h1 className='title'>Meet Our <strong>Team</strong></h1>
+            <h1 className='title'>Our <strong>Team</strong></h1>
+            <br />
+            <p>Mind Makers is made possible thanks to an international collaboration between engineers, educators and artists of all sorts, joined by a common vision.</p>
           </div>
           {teamNodes}
           <br />
