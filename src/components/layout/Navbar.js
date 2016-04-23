@@ -10,7 +10,7 @@ const Navbar = React.createClass({
     return (
       <nav className='navbar'>
         <p className='navbar-item is-text-centered'>
-          <a className='link is-info' href='#about'>Home</a>
+          <a className='link is-info' href='#home'>Home</a>
         </p>
         <p className='navbar-item is-text-centered'>
           <a className='link is-info' href='#about'>Mission</a>

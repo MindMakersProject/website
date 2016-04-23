@@ -72,7 +72,7 @@ const Contact = React.createClass({
           <br/>
           <p className='subtitle is-4'>ENGINEERING APPRENTICES:</p>
           <p>
-            If you are an adult (ages 18-120, <strong>elders: we highly encourage you to join!</strong>) who comes from an underrepresented or traditionally non-technical background (service industry professionals/single-mothers/etc. we want you too!), you are in the LA area and you’re interested in learning and sharing new skills through the program:
+            If you are an adult (ages 18-120, <strong>elders: we highly encourage you to join!</strong>) who comes from an underrepresented or traditionally non-technical background (<strong>service industry professionals/homemakers/etc. we want you too!</strong>), you are in the LA area and you’re interested in learning and sharing new skills through the program:
           </p>
           <p className='bold'>Please add "Engineering Apprentice" to the subject line.</p>
           <br/>
