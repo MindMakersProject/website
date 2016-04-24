@@ -13,25 +13,25 @@ const Navbar = React.createClass({
     return (
       <nav className='navbar'>
         <p className='navbar-item is-text-centered'>
-          <a data-scroll data-options='{ "easing": "linear" }' className='link is-info' href='#home'>Home</a>
+          <a data-scroll className='link is-info' href='#home'>Home</a>
         </p>
         <p className='navbar-item is-text-centered'>
-          <a data-scroll data-options='{ "easing": "linear" }' className='link is-info' href='#mission'>Mission</a>
+          <a data-scroll className='link is-info' href='#mission'>Mission</a>
         </p>
         <p className='navbar-item is-text-centered'>
-          <a data-scroll data-options='{ "easing": "linear" }' className='link is-info' href='#team'>Team</a>
+          <a data-scroll className='link is-info' href='#team'>Team</a>
         </p>
-        <p className='navbar-item is-text-centered'>
+        <p className='navbar-item is-text-centered logo'>
           <img className='nav-logo' src={logo} alt='Mind Makers' />
         </p>
         <p className='navbar-item is-text-centered'>
-          <a data-scroll data-options='{ "easing": "linear" }' className='link is-info' href='#media'>Media</a>
+          <a data-scroll className='link is-info' href='#media'>Media</a>
         </p>
         <p className='navbar-item is-text-centered'>
-          <a data-scroll data-options='{ "easing": "linear" }' className='link is-info' href='#events'>Events</a>
+          <a data-scroll className='link is-info' href='#events'>Events</a>
         </p>
         <p className='navbar-item is-text-centered'>
-          <a data-scroll data-options='{ "easing": "linear" }' className='link is-info' href='#contact'>Contact</a>
+          <a data-scroll className='link is-info' href='#contact'>Contact</a>
         </p>
       </nav>
     )

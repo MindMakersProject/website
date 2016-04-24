@@ -21,13 +21,14 @@ nav {
 }
 
 .hero {
+  top: 15%;
   min-height: 55vh;
   color: $text-over-dark;
   background-color: transparent;
 }
 
 .hero-content {
-  margin-top: 15%;
+  padding-top: 28%
 }
 
 .section + .section {
@@ -54,12 +55,6 @@ nav {
 .subtitle strong, strong {
   font-weight: 900;
   color: $secondary;
-}
-
-.notification {
-  color: white;
-  background: transparent;
-  border-radius: 0;
 }
 
 .card {
@@ -130,4 +125,16 @@ a:hover {
 
 .center-img {
   display: block; margin: 0 auto;
+}
+
+.navbar {
+  position: absolute;
+  top: 20px;
+  z-index: 100;
+}
+.navbar.fixed{
+  position: fixed;
+  top: 5px;
+  z-index: 200;
+  padding-right: 3.5%;
 }

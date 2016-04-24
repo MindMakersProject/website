@@ -15,8 +15,8 @@ const Particles =  {
   initAnimation();
   addListeners();
   smoothScroll.init({
-    easing: 'easeOutQuad',
-    offset: 25
+    easing: 'easeOutCubic',
+    offset: 35
   });
 
 
