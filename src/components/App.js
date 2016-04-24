@@ -12,9 +12,6 @@ const App = React.createClass({
     return (
       <div>
         <div className='container is-fluid'>
-          <div className='notification'>
-            This website is under <strong>active development.</strong>
-          </div>
           <Navbar />
           <Home />
           <Footer />

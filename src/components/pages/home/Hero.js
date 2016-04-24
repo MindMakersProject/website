@@ -7,11 +7,11 @@ const Hero = React.createClass({
   },
   render () {
     return (
-      <section id='hero' className='hero'>
+      <section id='hero' className='hero is-fullheight'>
         <canvas id='mm-canvas'></canvas>
         <div className='hero-content'>
           <div className='container'>
-            <h1 className='title'>
+            <h1 className='subtitle is-1'>
               MIND MAKERS
             </h1>
             <h2 className='subtitle'>
