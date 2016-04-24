@@ -1,6 +1,5 @@
 import React from 'react'
-import Fixed from './../../previous/js/fixed.js'
-//
+import fixedNav from './../../previous/js/fixedNav.js'
 import logo from './../../assets/mm-logo.png'
 
 const Navbar = React.createClass({
@@ -8,7 +7,7 @@ const Navbar = React.createClass({
     return { collapsed: false }
   },
   componentDidMount () {
-    Fixed.load();
+    fixedNav.stick()
   },
   render () {
     return (
