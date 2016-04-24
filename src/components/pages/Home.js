@@ -16,8 +16,8 @@ const Home = React.createClass({
         <Mission />
         <Team />
         <Media />
-        <Contact />
         <Events />
+        <Contact />
       </section>
     )
   }
