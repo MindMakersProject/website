@@ -7,10 +7,12 @@ const Events = React.createClass({
         <div className='container'>
           <div className='heading is-text-centered'>
             <h1 className='title'>Events</h1>
-            <br/>
-            <p>
-              Stay up on what's in the making with Mind Makers.
-            </p>
+            <h2 className='subtitle'><strong>Stay up on the latest with Mind Makers.</strong></h2>
+            <div className='social-bar'>
+            <i className='fa-instagram' href='https://www.instagram.com/mindmakersproject'></i>      
+            <i className='fa-facebook' href='mindmakersproject'></i>
+            <i className='fa-twitter' href='mindmakersproject'></i>
+            </div>
           </div>
           <br/>
           <div className='card is-fullwidth'>

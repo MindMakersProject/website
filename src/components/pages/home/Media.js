@@ -26,10 +26,7 @@ const Media = React.createClass({
         <div className='container'>
           <div className='heading is-text-centered'>
             <h1 className='title'>Media</h1>
-            <br/>
-            <p>
-              A glimpse of what we do, and how you can do it too.
-            </p>
+            <h2 className='subtitle'><strong>A glimpse of what we do, and how you can do it too.</strong></h2>
           </div>
           <br/>
           <div className='tabs is-toggle is-centered is-fullwidth'>

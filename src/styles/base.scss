@@ -45,17 +45,20 @@ body {
 }
 
 .navbar {
+  transition:all 1.2s linear;
   position: absolute;
   top: 40px;
   z-index: 100;
   width: 100%;
 }
 .navbar.fixed{
+  transition:all 1.2s linear;
   position: fixed;
   top: -0px;
   z-index: 200;
   width: 100%;
   background-color: $bg-dark;
+  padding-left: 2.8%;
 }
 .nav-logo.fixed {
   width: 60px;
