@@ -8,28 +8,24 @@ const Mission = React.createClass({
           <div className='heading is-text-centered'>
             <h1 className='title'>Mission</h1>
             <h2 className='subtitle'>
-              <strong>Making Mindful Matters, Matter.</strong>
+              <strong>Mind Makers' mission is to encourage STEM diversity and empower and inspire children and underserved adults through education, outreach and service. Our vision is to build a diverse, technology proficient community that values knowledge sharing, redefines possibility and inspires a new generation of engineering enthusiasts.</strong>
             </h2>
           </div>
           <br/>
           <p>
-            With the support of TEDx, and other influential community organizations, we would like to introduce “Mind Makers”, an unconventional educational initiative created by a NASA JPL engineer to help expand the future of the STEM field community.
-          </p>
-          <br/>
-          <p>
-            Under the mentorship of engineers from some of the most creative companies in the country, adult participants from underrepresented or unconventional backgrounds will be introduced to concepts that are key to developing technology. This will be done through specially designed virtual and in-person lessons and workshops which start out assuming that the new apprentices have no prior engineering knowledge and finish after several weeks of engagement and support, leaving them with practical yet powerful skills. Some of these new skills include elements of robotics, computer programing, CAD, electrical and mechanical engineering. Once completed, all of this valuable content and individual experiences will be provided as open-source resources.
-          </p>
-          <br/>
-          <p>
-            Next, they will apply their newly learned know-how to work in a team to build a large scale interactive exhibit to be shared with the whole community. The exhibit will take the form of an automated human head, providing a responsive reproduction of our own biological sensory system (eyes, ears, brain and more) that helps us to perceive the world around us.
-          </p>
-          <br/>
-          <p>
-            The exhibit will expose children and adults to two beautiful concepts. One is that magic can be made by combining STEM knowledge with mentorship. The other, is that truly anyone can take part in this magic and then make more by passing it on to others. The overall process will result in a propagating wave of information sharing and encouragement between people from unexpected backgrounds, redefining what it means to be into engineering.
-          </p>
-          <br/>
-          <p>
-            Together, we can empower all generations with the gifts of knowledge and show that impactful people are everywhere around us.
+          Mind Makers Incorporation is a 501(c)(3) nonprofit organization working to empower adults from unconventional backgrounds with engineering skills and mentor support and provide them with pathways to make a positive impact on their community in return. The model is a propagating outreach initiative that diversifies the Science, Technology, Engineering, Arts and Math (STEAM) world by educating an unexpected group of adults and activating them to pass it on to other adults and children.
+          <br /><br />
+          
+          The program engages engineers and educators who share their knowledge, free of charge, designing and teaching an approachable yet intense workshop-based, ìmakerî oriented curriculum. The Mind Makers educational structure is designed in a supportive, boot camp style which has gained popularity with the public for software education. However, in addition to teaching software, some of these new skills include elements of robotics, computer programing, CAD, electrical and mechanical engineering. Once completed, all of the educational content and individual experiences will be provided as open-source resources.
+          <br /><br />
+          
+          Through collaboration with professional engineers and designers, student workshops culminate in the creation of an interactive exhibit which uses automation to recreate the human senses. This serves the purpose of revealing the magic of both robotics and anatomy to a larger community, but also demonstrates two beautiful concepts. One is that magic can be made by combining STEM knowledge with mentorship. The other, is that truly anyone can take part in this magic and then make more by passing it on to others.
+          <br /><br />
+
+          This message is delivered beyond the exhibit by showcasing the stereotype-breaking team who creates it and then sending them as Mind Makers alumni into the community and classrooms of children to share their new knowledge and serve as diverse examples of technically skilled role models.
+          <br /><br />
+
+          The immediate audience for Mind Makers is working-age adults, who are overlooked by many engineering education outreach initiatives in lieu of working directly with children. By helping adults to attain confidence, technical experience and a passion for knowledge sharing, Mind Makers serves adults to the community as agents of change and examples redefining possibility for people of all ages. Together, we can empower all generations with the gifts of knowledge and show that impactful people are everywhere around us.
           </p>
         </div>
         <br />

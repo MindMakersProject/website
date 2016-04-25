@@ -89,6 +89,7 @@ const Team = React.createClass({
           <div className='heading is-text-centered'>
             <br />
             <h1 className='title'>Meet Our <strong>Team</strong></h1>
+            <h2 className='subtitle'><strong>Mind Makers is made possible thanks to an international collaboration between engineers, educators and artists of all sorts, joined by a common vision.</strong></h2>
           </div>
           {teamNodes}
           <br />
@@ -109,7 +110,7 @@ const Team = React.createClass({
           <br />
           <div className='heading is-text-centered'>
             <h1 className='title'>Codepath</h1>
-            <p>CodePath is proud to partner with Mind Makers to develop a world class curriculum aligned with current industry standards. They see this as an opportunity to inspire new and diverse groups of professionals to pursue careers in engineering while creating real paths to proficiency.</p>
+            <h2 className='subtitle'><strong>CodePath is proud to partner with Mind Makers to develop a world class curriculum aligned with current industry standards. They see this as an opportunity to inspire new and diverse groups of professionals to pursue careers in engineering while creating real paths to proficiency.</strong></h2>
           </div>
           <br />
           {codepathNodes}
