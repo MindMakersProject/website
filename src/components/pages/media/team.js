@@ -15,18 +15,18 @@ const team = [
     description: 'Isis is an autodidactic software engineer at Uber, on the Advisory Board of Women Who Code, and the accidental founder of the global #iLookLikeAnEngineer movement. She works hard towards empowering people to be their best selves through spoken and written word, and redefining the term ISIS in the media. Born with opportunity that others do not have, she feels that she has a responsibility to give back to the world and create a positive impact in her communities. She believes that Mind Makers is important because it sets and example that anyone is capable of achieving technical greatness.'
   },
   {
-    src: 'https://github.com/MindMakersProject/website-BE/blob/master/photos/MelodySchuster200x200.jpg?raw=true',
-    name: 'Melody Schuster',
-    role: 'Operation\'s Manager',
-    type: 'Team',
-    description: 'Left her home town at age 17 to work as a model for years in cities including Milan, Paris, Hamburg, Los Angeles and Miami. After years of working in fashion, Melody began college and is now pursuing a career in Elementary Education, participating in an accelerated teaching credentials program. This will leave her in the ideal place to become an educator for children, which is where her true passion lies. She supports Mind Makers as a proponent of education and science for people of all ages. She believes in the importance of inspiring and motivating other people from all different backgrounds to do whatever they dream.'
-  },
-  {
     src: 'https://github.com/MindMakersProject/website-BE/blob/master/photos/BobakFerdowsi200x200.jpg?raw=true',
     name: 'Bobak Ferdowski',
     role: 'Advisor',
     type: 'Team',
     description: 'Bobak is a member of the Flight System Engineering team on the Europa mission at NASA’s Jet Propulsion Laboratory, and system architect for Flight Software Product Line. His prior positions have included Launch, Cruise, Approach Engineering Lead and Flight Director on Mars Science Laboratory Curiosity, as well as Science Planner on the Cassini mission. Bobak has always wanted to find life elsewhere in our universe. He believes the future will require scientific and technical minds to tackle complex problems and that Mind Makers can both help individuals succeed and empower people to improve their world.'
+  },
+  {
+    src: 'https://github.com/MindMakersProject/website-BE/blob/master/photos/MelodySchuster200x200.jpg?raw=true',
+    name: 'Melody Schuster',
+    role: 'Operation\'s Manager',
+    type: 'Team',
+    description: 'Left her home town at age 17 to work as a model for years in cities including Milan, Paris, Hamburg, Los Angeles and Miami. After years of working in fashion, Melody began college and is now pursuing a career in Elementary Education, participating in an accelerated teaching credentials program. This will leave her in the ideal place to become an educator for children, which is where her true passion lies. She supports Mind Makers as a proponent of education and science for people of all ages. She believes in the importance of inspiring and motivating other people from all different backgrounds to do whatever they dream.'
   },
   {
     src: 'https://github.com/MindMakersProject/website-BE/blob/master/photos/EricEspinosa200x200.jpg?raw=true',
@@ -100,7 +100,7 @@ const team = [
   },
   {
     src: 'https://github.com/MindMakersProject/website-BE/blob/master/photos/JuanManuelCornejo200x200.jpg?raw=true',
-    name: 'Juan Manuel Cornejo.',
+    name: 'Juan Manuel Cornejo',
     role: '',
     type: 'Designer',
     description: 'Sound engineer and autodidactic designer and developer. Juan has worked on projects ranging from acoustic research and education to UX/UI in productivity apps, in Spain, France and Ecuador. He recently founded IncaDevs, a community for Ecuadorian developers to give back to the community through software and is currently developing Rocotoco, an app to enable people in the city to connect directly to local farmers. He believes that Mind Makers can change the shape and course of the world by showing people the empowering nature of engineering and the magnificence of sharing knowledge with others.'

@@ -6,7 +6,7 @@ const Mission = React.createClass({
       <section id='mission' className='section'>
         <div className='container'>
           <div className='heading is-text-centered'>
-            <h1 className='title'>Mission</h1>
+            <h1 className='title'>About</h1>
             <h2 className='subtitle'>
               <strong>Mind Makers' mission is to encourage STEM diversity and empower and inspire children and underserved adults through education, outreach and service. Our vision is to build a diverse, technology proficient community that values knowledge sharing, redefines possibility and inspires a new generation of engineering enthusiasts.</strong>
             </h2>
@@ -25,9 +25,6 @@ const Mission = React.createClass({
           </p>
         </div>
         <br/>
-        <p>
-          Mind Makers' mission is to encourage STEM diversity and empower and inspire children and underserved adults through education, outreach and service. Our vision is to build a diverse, technology proficient community that values knowledge sharing, redefines possibility and inspires a new generation of engineering enthusiasts.
-        </p>
       </section>
     )
   }
