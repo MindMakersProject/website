@@ -8,11 +8,6 @@ const Events = React.createClass({
           <div className='heading is-text-centered'>
             <h1 className='title'>Events</h1>
             <h2 className='subtitle'><strong>Stay up on the latest with Mind Makers.</strong></h2>
-            <div className='social-bar'>
-              <a href='https://www.instagram.com/mindmakersproject'><i className='fa fa-instagram fa-3x'></i></a>
-              <a href='https://www.facebook.com/MindMakersProject/'><i className='fa fa-facebook-official fa-3x'></i></a>
-              <a href='https://twitter.com/mindmakersproj'><i className='fa fa-twitter-square fa-3x'></i></a>
-            </div>
           </div>
           <br/>
           <div className='card is-fullwidth'>

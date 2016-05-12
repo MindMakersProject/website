@@ -7,21 +7,21 @@ const Documents = React.createClass({
         <table class='table is-striped is-narrow'>
           <thead>
             <tr>
-              <th><strong>A Guide To Electronic Bow & Social Impact Making</strong></th>
+              <th><strong>Mind Makers + Girl Scouts = Electronic Bow & Social Impact Making</strong></th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>
                 <a href='https://github.com/MindMakersProject/website-BE/raw/master/documents/mm_girlscouts_lr_v7.pdf'>
-                  Girl Scouts
+                  RF LED Bow Technical Manual
                 </a>
               </td>
             </tr>
             <tr>
               <td>
                 <a href='https://github.com/MindMakersProject/website-BE/raw/master/documents/GSPresentationNoVid.pdf'>
-                  Javabots Workshop
+                  RF LED Bow Workshop Presentation
                 </a>
               </td>
             </tr>
