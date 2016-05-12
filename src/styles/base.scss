@@ -45,14 +45,14 @@ body {
 }
 
 .navbar {
-  transition:all 1.2s linear;
+  transition:all 0.3s linear;
   position: absolute;
   top: 40px;
   z-index: 100;
   width: 100%;
 }
 .navbar.fixed{
-  transition:all 1.2s linear;
+  transition:all 0.3s linear;
   position: fixed;
   top: -0px;
   z-index: 200;
