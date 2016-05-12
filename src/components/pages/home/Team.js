@@ -94,7 +94,7 @@ const Team = React.createClass({
           {teamNodes}
           <br />
           <div className='heading is-text-centered'>
-            <h1 className='title'>Our Sponsors</h1>
+            <h1 className='title'>Sponsors</h1>
           </div>
           {sponsorNodes}
           <br />

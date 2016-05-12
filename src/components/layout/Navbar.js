@@ -16,7 +16,7 @@ const Navbar = React.createClass({
           <a data-scroll className='link is-info' href='#home'>Home</a>
         </p>
         <p className='navbar-item is-text-centered'>
-          <a data-scroll className='link is-info' href='#mission'>Mission</a>
+          <a data-scroll className='link is-info' href='#mission'>About</a>
         </p>
         <p className='navbar-item is-text-centered'>
           <a data-scroll className='link is-info' href='#team'>Team</a>
