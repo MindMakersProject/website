@@ -22,10 +22,10 @@
 * `npm run build // build static folder into the 'dist/' folder`
 
 ## Deploying
-* Run `npm install -f firebase-tools`
-* Run `firebase login`
+* `npm install -f firebase-tools`
+* `firebase login`
 * `firebase prefs:token`
-* `firebase deploy --token "$FIREBASE_TOKEN_HERE"
+* `firebase deploy --token "$FIREBASE_TOKEN_HERE"`
 
 ## Contribute  
 * Clone the project
