@@ -2,7 +2,7 @@
 
 import GSAP from 'gsap'
 import RAF from './rAF.js'
-import smoothScroll from 'smooth-scroll'
+import smoothScroll from './smooth-scroll.js'
 
 const Particles =  {
 
