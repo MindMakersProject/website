@@ -8,7 +8,7 @@ const Footer = React.createClass({
           <div className='content'>
             <hr/>
             <p className='is-text-centered'>
-              <strong>&copy; Mind Makers, Inc.</strong>
+              <strong>&copy;Mind Makers 2016</strong>
             </p>
           </div>
         </div>

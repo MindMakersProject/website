@@ -18,7 +18,7 @@ body {
 
 #mm-canvas {
   position: absolute;
-  top: 0px;
+  top: 0;
   left: 0;
   z-index: 0;
   width: 100%;
@@ -42,29 +42,4 @@ body {
   left:0;
   width:100%;
   height:100%;
-}
-
-.navbar {
-  transition:all 1.2s linear;
-  position: absolute;
-  top: 40px;
-  z-index: 100;
-  width: 100%;
-}
-.navbar.fixed{
-  transition:all 1.2s linear;
-  position: fixed;
-  top: -0px;
-  z-index: 200;
-  width: 100%;
-  background-color: $bg-dark;
-  padding-left: 2.8%;
-}
-.nav-logo.fixed {
-  width: 60px;
-  height: 25px;
-}
-
-a:active {
-  color: $violet;
 }
