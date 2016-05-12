@@ -12,7 +12,7 @@ const team = [
     name: 'Isis Anchalee',
     role: 'Advisor',
     type: 'Team',
-    description: 'Isis is an auto-didactic software engineer at Identity Management company OneLogin, on the Advisory Board of Women Who Code, and the accidental founder of the global #iLookLikeAnEngineer movement. She works hard towards empowering people to be their best selves through spoken and written word, and redefining the term ISIS in the media. Born with opportunity that others do not have, she feels that she has a responsibility to give back to the world and create a positive impact in her communities. She believes that Mind Makers is important because it sets and example that anyone is capable of achieving technical greatness.'
+    description: 'Isis is an autodidactic software engineer at Uber, on the Advisory Board of Women Who Code, and the accidental founder of the global #iLookLikeAnEngineer movement. She works hard towards empowering people to be their best selves through spoken and written word, and redefining the term ISIS in the media. Born with opportunity that others do not have, she feels that she has a responsibility to give back to the world and create a positive impact in her communities. She believes that Mind Makers is important because it sets and example that anyone is capable of achieving technical greatness.'
   },
   {
     src: 'https://github.com/MindMakersProject/website-BE/blob/master/photos/MelodySchuster200x200.jpg?raw=true',
@@ -103,7 +103,14 @@ const team = [
     name: 'Juan Manuel Cornejo.',
     role: '',
     type: 'Designer',
-    description: 'Sound engineer and auto-didactic designer and developer. Juan has worked on projects ranging from acoustic research and education to UX/UI in productivity apps, in Spain, France and Ecuador. He recently founded IncaDevs, a community for Ecuadorian developers to give back to the community through software and is currently developing Rocotoco, an app to enable people in the city to connect directly to local farmers. He believes that Mind Makers can change the shape and course of the world by showing people the empowering nature of engineering and the magnificence of sharing knowledge with others.'
+    description: 'Sound engineer and autodidactic designer and developer. Juan has worked on projects ranging from acoustic research and education to UX/UI in productivity apps, in Spain, France and Ecuador. He recently founded IncaDevs, a community for Ecuadorian developers to give back to the community through software and is currently developing Rocotoco, an app to enable people in the city to connect directly to local farmers. He believes that Mind Makers can change the shape and course of the world by showing people the empowering nature of engineering and the magnificence of sharing knowledge with others.'
+  },
+  {
+    src: 'https://github.com/MindMakersProject/website-BE/blob/master/photos/CherStewart200x200.jpg?raw=true',
+    name: 'Cher Stewart',
+    role: 'Software Engineer',
+    type: 'Technical Leader',
+    description: "Cher is an autodidactic full-stack software engineer, currently at Blizzard Entertainment. Cher began teaching herself web markup languages in the late 1990's when she was just fifteen years old. She has always eagerly worked on small, non-paying web applications for many causes and organizations with the purpose to help others; simultaneously growing her career. Cher is driven by a thirst for knowledge, experimentation and connection the universe. Passionately curious and in love with the cosmos, she studied astrophysics, medical physics and mathematics at the University of Missouri."
   }
 ]
 

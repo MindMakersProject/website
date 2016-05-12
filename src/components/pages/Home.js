@@ -2,7 +2,7 @@ import React from 'react'
 
 // HOME PAGE LAYOUT
 import Hero from './home/Hero.js'
-import Mission from './home/Mission.js'
+import About from './home/About.js'
 import Team from './home/Team.js'
 import Events from './home/Events.js'
 import Media from './home/Media.js'
@@ -13,7 +13,7 @@ const Home = React.createClass({
     return (
       <section id='home'>
         <Hero />
-        <Mission />
+        <About />
         <Team />
         <Media />
         <Events />

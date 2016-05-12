@@ -24,11 +24,11 @@ const Mission = React.createClass({
           The immediate audience for Mind Makers is working-age adults, who are overlooked by many engineering education outreach initiatives in lieu of working directly with children. By helping adults to attain confidence, technical experience and a passion for knowledge sharing, Mind Makers serves adults to the community as agents of change and examples redefining possibility for people of all ages. Together, we can empower all generations with the gifts of knowledge and show that impactful people are everywhere around us.
           </p>
         </div>
-        <br />
-        <div>
-          <img className='logos' src='http://static1.squarespace.com/static/566879201c12100a72ccd165/t/5671d54ca12f44b15d742cb7/1450300750178/?format=1000w' />
-        </div>
-      </section>
+        <br/>
+        <p>
+          Mind Makers' mission is to encourage STEM diversity and empower and inspire children and underserved adults through education, outreach and service. Our vision is to build a diverse, technology proficient community that values knowledge sharing, redefines possibility and inspires a new generation of engineering enthusiasts.
+        </p>
+      </div>
     )
   }
 })
