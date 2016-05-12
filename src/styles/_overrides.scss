@@ -9,7 +9,7 @@ h1.title {
 
 .title + .subtitle {
   margin-top: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 65px;
 }
 
 hr {
@@ -21,14 +21,13 @@ nav {
 }
 
 .hero {
-  top: 15%;
   min-height: 55vh;
   color: $text-over-dark;
   background-color: transparent;
 }
 
 .hero-content {
-  padding-top: 28%
+  margin-top: 15%;
 }
 
 .section + .section {
@@ -55,6 +54,12 @@ nav {
 .subtitle strong, strong {
   font-weight: 900;
   color: $secondary;
+}
+
+.notification {
+  color: white;
+  background: transparent;
+  border-radius: 0;
 }
 
 .card {
@@ -121,21 +126,12 @@ a:hover {
 
 .bold {
   font-weight: bold;
-  color: $violet;
 }
 
 .center-img {
   display: block; margin: 0 auto;
 }
 
-.navbar {
-  position: absolute;
-  top: 20px;
-  z-index: 100;
-}
-.navbar.fixed{
-  position: fixed;
-  top: 5px;
-  z-index: 200;
-  padding-right: 3.5%;
+.heading {
+  margin-bottom: 40px;
 }
