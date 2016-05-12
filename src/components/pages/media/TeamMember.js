@@ -12,7 +12,7 @@ const TeamMember = ({ name, role, type, description, src }) => {
       </div>
       <div className='column is-9'>
         <div className='container'>
-          <p><strong>{name}. {role}</strong> {description}</p>
+          <p className='bold'>{name}. {role}</p><p> {description}</p>
         </div>
       </div>
     </div>
