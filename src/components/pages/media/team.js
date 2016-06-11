@@ -22,6 +22,13 @@ const team = [
     description: 'Bobak is a member of the Flight System Engineering team on the Europa mission at NASA’s Jet Propulsion Laboratory, and system architect for Flight Software Product Line. His prior positions have included Launch, Cruise, Approach Engineering Lead and Flight Director on Mars Science Laboratory Curiosity, as well as Science Planner on the Cassini mission. Bobak has always wanted to find life elsewhere in our universe. He believes the future will require scientific and technical minds to tackle complex problems and that Mind Makers can both help individuals succeed and empower people to improve their world.'
   },
   {
+    src: 'https://github.com/MindMakersProject/website-BE/blob/master/photos/charles-dandino.jpg?raw=true',
+    name: 'Charles Dandino',
+    role: 'Advisor',
+    type: 'Team',
+    description: 'Mechanical engineer with experience on the Curiosity and Mars 2020 (future) Rovers, and currently working on the Asteroid Redirect Mission which will snatch a large asteroid out of orbit and put it in orbit around the moon for exploration. After nearly 20 years of boring schooling, Charles is eager to contribute to a fast-paced, hands-on STEAM learning project. Charles has learned more through projects and mentors than he has through books. Your results may vary, but probably not.'
+  },
+  {
     src: 'https://github.com/MindMakersProject/website-BE/blob/master/photos/MelodySchuster200x200.jpg?raw=true',
     name: 'Melody Schuster',
     role: 'Operation\'s Manager',
