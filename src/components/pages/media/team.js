@@ -110,7 +110,7 @@ const team = [
     name: 'Cher Stewart',
     role: 'Software Engineer',
     type: 'Technical Leader',
-    description: "Cher is an autodidactic full-stack software engineer, currently at Blizzard Entertainment. Cher began teaching herself web markup languages in the late 1990's when she was just fifteen years old. She has always eagerly worked on small, non-paying web applications for many causes and organizations with the purpose to help others; simultaneously growing her career. Cher is driven by a thirst for knowledge, experimentation and connection the universe. Passionately curious and in love with the cosmos, she studied astrophysics, medical physics and mathematics at the University of Missouri."
+    description: "Cher is an autodidactic full-stack software engineer, currently at Blizzard Entertainment. Cher began teaching herself web markup languages in the late 1990's when she was just fifteen years old. She has always eagerly worked on small, non-paying web applications for many causes and organizations with the purpose to help others; simultaneously growing her career. Cher is driven by a thirst for knowledge, experimentation and connection to the universe. Passionately curious and in love with the cosmos, she studied astrophysics, medical physics and mathematics at the University of Missouri."
   }
 ]
 
