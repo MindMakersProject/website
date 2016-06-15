@@ -7,10 +7,7 @@ const Events = React.createClass({
         <div className='container'>
           <div className='heading is-text-centered'>
             <h1 className='title'>Events</h1>
-            <br/>
-            <p>
-              Stay up on what's in the making with Mind Makers.
-            </p>
+            <h2 className='subtitle'><strong>Stay up on the latest with Mind Makers.</strong></h2>
             <p>
               Check out our media section for photos, videos & materials to help you host your own event.
             </p>
@@ -29,6 +26,7 @@ const Events = React.createClass({
               <div className='content'>
                 <p>
                   The Mind Makers team hosted an electronics workshop with the Rock ‘n Roll Robots, two Girl Scouts robotics teams, to teach them how to make RF controlled LED bows, just like the ones the MM team made together back in December! We stocked up with tool kits and supplies to share going forward so that they can pay the knowledge forward. Check out our photos and video of this girl-empowering afternoon, as well as the full workshop documentation, which can be used by anyone (including YOU!) to host such a workshop like this for the rest of your community.   
+
                 </p>
                 <br/>
                 <p className='subtitle is-6'>Downtown Los Angeles</p>

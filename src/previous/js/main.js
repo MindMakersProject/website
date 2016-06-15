@@ -2,6 +2,7 @@
 
 import GSAP from 'gsap'
 import RAF from './rAF.js'
+import smoothScroll from './smooth-scroll.js'
 
 const Particles =  {
 
@@ -13,6 +14,11 @@ const Particles =  {
   initNodes();
   initAnimation();
   addListeners();
+  smoothScroll.init({
+    easing: 'easeOutCubic',
+    offset: 15
+  });
+
 
   function initNodes() {
     width = window.innerWidth;

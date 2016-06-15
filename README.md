@@ -21,6 +21,10 @@
 * In your browser, go to `http://localhost:8080/`
 * `npm run build // build static folder into the 'dist/' folder`
 
+## Deploying
+* `npm run build`
+* `npm run deploy`
+
 ## Contribute  
 * Clone the project
 * Experiment/fix/change

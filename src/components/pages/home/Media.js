@@ -26,10 +26,15 @@ const Media = React.createClass({
         <div className='container'>
           <div className='heading is-text-centered'>
             <h1 className='title'>Media</h1>
-            <br/>
+            <h2 className='subtitle'><strong>A glimpse of what we do, and how you can do it too.</strong></h2>
             <p>
-              A glimpse of what we do, and how you can do it too.
+              Check out our videos and photos to see what we do, and download our docs to do the same.
             </p>
+            <div className='social-bar'>
+              <a href='https://www.instagram.com/mindmakersproject'><i className='fa fa-instagram fa-3x'></i></a>
+              <a href='https://www.facebook.com/MindMakersProject/'><i className='fa fa-facebook-official fa-3x'></i></a>
+              <a href='https://twitter.com/mindmakersproj'><i className='fa fa-twitter-square fa-3x'></i></a>
+            </div>
           </div>
           <br/>
           <div className='tabs is-toggle is-centered is-fullwidth'>
