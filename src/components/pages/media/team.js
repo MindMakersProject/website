@@ -118,6 +118,13 @@ const team = [
     role: 'Software Engineer',
     type: 'Technical Leader',
     description: "Cher is an autodidactic full-stack software engineer, currently at Blizzard Entertainment. Cher began teaching herself web markup languages in the late 1990's when she was just fifteen years old. She has always eagerly worked on small, non-paying web applications for many causes and organizations with the purpose to help others; simultaneously growing her career. Cher is driven by a thirst for knowledge, experimentation and connection to the universe. Passionately curious and in love with the cosmos, she studied astrophysics, medical physics and mathematics at the University of Missouri."
+  },
+  {
+    src: 'https://github.com/MindMakersProject/website-BE/blob/master/photos/JoshVanderHook200x200.jpg?raw=true',
+    name: 'Josh Vander Hook',
+    role: 'Software Engineer',
+    type: 'Technical Leader',
+    description: "Josh is a Research Technologist at NASA’s Jet Propulsion Lab. He digs all things programming, but really loves applications like algorithm or data structure design, optimization and applied math, sensor fusion and information processing. He got his start in robotics hacking together a software-controlled RC car and would love to teach you how, too. At work, he spends most of his time designing software for the next generation of military robotics and in his spare time does a little volunteer web development for non-profits and boxes at a local gym. Josh is excited to be part of the Mind Makers team because he wants to support the lifelong learning and reinvention process for anyone interested in technology."
   }
 ]
 
