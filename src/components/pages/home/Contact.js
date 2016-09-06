@@ -36,13 +36,6 @@ const Contact = React.createClass({
       message: this.state.message
     }
     window.analytics.identify(payload)
-    this.setState({
-      firstName: '',
-      lastName: '',
-      email: '',
-      subject: '',
-      message: 'Thanks, we will be in touch shortly!'
-    })
   },
   render () {
     return (
