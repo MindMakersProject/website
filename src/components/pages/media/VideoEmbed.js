@@ -21,9 +21,7 @@ const VideoEmbed = React.createClass({
       <iframe
         src={src}
         frameBorder='0'
-        webkitAllowFullScreen
-        mozallowfullscreen
-        allowfullscreen
+        allowFullScreen
       />
     )
   }
