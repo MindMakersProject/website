@@ -1,6 +1,6 @@
 import React from 'react'
 import PictureGrid from './PictureGrid.js'
-import $ from 'jQuery'
+import $ from 'jquery'
 
 const Photos = React.createClass({
   getInitialState () {
