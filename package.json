@@ -4,7 +4,8 @@
   "description": "The Mind Makers Project Website",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/webpack-dev-server",
+    "start": "node server/index.js",
+    "local": "./node_modules/.bin/webpack-dev-server",
     "build": "./node_modules/.bin/webpack -p",
     "deploy": "surge -p dist -d mindmakersproject.org"
   },
