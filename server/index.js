@@ -12,7 +12,6 @@ app.get('/', function(req, res) {
 });
 
 var port = process.env.PORT || 5000
-var localhost = process.host().address || localhost;
 app.listen(port, function() {
-	console.log('were running at http://' + localhost + port);
+	console.log('were running at http://localhost:'+ port);
 });
