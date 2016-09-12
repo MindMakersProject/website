@@ -43,6 +43,7 @@
   "dependencies": {
     "axios": "^0.9.1",
     "bulma": "0.0.17",
+    "express": "^4.14.0",
     "firebase": "^2.4.2",
     "font-awesome": "^4.5.0",
     "gsap": "^1.18.2",
