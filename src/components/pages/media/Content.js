@@ -1,5 +1,5 @@
 import React from 'react'
-import Videos from './Videos.js'
+import Videos from './videos/VideoBar.js'
 import Documents from './Documents.js'
 import Photos from './Photos.js'
 
