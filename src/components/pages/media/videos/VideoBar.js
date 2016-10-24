@@ -32,7 +32,7 @@ const Videos = React.createClass({
     var self = this;
     const videoNodes = this.state.videos.map((arr) => {
       return (
-      	<div onClick={self.poop}>
+      	<div>
           <VideoThumbnail
             title={arr.title}
             description={arr.description}
