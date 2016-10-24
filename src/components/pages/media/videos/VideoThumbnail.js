@@ -1,6 +1,6 @@
 import React from 'react'
 
-const VideoThumbnail = ({ title, description, src, thumbnail, index }) => {
+const VideoThumbnail = ({ title, description, src, thumbnail, index, handleClick }) => {
 
 	const styles = {
 	  imageGridItem: {
@@ -24,7 +24,7 @@ const VideoThumbnail = ({ title, description, src, thumbnail, index }) => {
 	}
 
 	return (
-      <div className='imageGridItem' style={styles.imageGridItem}>
+      <div className='imageGridItem' style={styles.imageGridItem} onClick={handleClick}>
         <a>
           <div className='imageWrapper' style={styles.imageWrapper}></div>
           { title }
