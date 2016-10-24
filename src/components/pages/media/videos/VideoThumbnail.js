@@ -2,6 +2,10 @@ import React from 'react'
 
 const VideoThumbnail = ({ title, description, src, thumbnail, index, handleClick }) => {
 
+	if (!thumbnail) {
+		thumbnail = src
+	}
+
 	const styles = {
 	  imageGridItem: {
 	    display: 'inline-block',
