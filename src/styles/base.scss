@@ -28,6 +28,15 @@ body {
 /*BULMA CUSTOMIZATION*/
 @import './_overrides.scss';
 
+
+.video-bar {
+  position:relative;
+  padding-bottom:5%;
+  padding-top:30px;
+  height:30vh;
+  overflow:hidden;
+}
+
 .video-container {
   position:relative;
   padding-bottom:56.25%;
