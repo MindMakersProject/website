@@ -50,6 +50,13 @@ const team = [
     description: 'Carla is an actress, model, Co-Founder of Earth Angels and serves on the board of the Grassroots Global Development Foundation. She is an avid volunteer, engaging and educating herself on the different opportunities available in her community while pursuing a career in acting. Carla now serves as President and Executive Director of Earth Angels, a non-profit organization which is focused on getting the community involved in service, solutions and one another. Carla supports this project because she believes that kids and adults alike will be learning from each other in ways that truly make a difference both educationally and behaviorally.'
   },
   {
+    src: 'https://github.com/MindMakersProject/website-BE/blob/master/photos/allison_ayad.jpg?raw=true',
+    name: 'Allison Ayad',
+    role: 'Liaison',
+    type: 'Volunteer Coordinator',
+    description: 'Allison is an undergraduate student pursuing a degree in Mechanical Engineering. She has been engaged in STEM since the age of nine, building competitive robots and participating in programs which promote teamwork in building robots to solve a variety of challenges. Through the mentorship she has received, she has developed confidence in her ability to pursue a career in STEM and aspires to work on robotic systems for the exploration of space or disaster mitigation. She is excited to be a part of Mind Makers because she believes exposure to engineering can instill a new passion in people’s lives.'
+  },
+  {
     src: 'https://github.com/MindMakersProject/website-BE/blob/master/photos/SinaJandscheidt200x200.jpg?raw=true',
     name: 'Sina Henrie',
     role: '',
@@ -59,7 +66,7 @@ const team = [
   {
     src: 'https://github.com/MindMakersProject/website-BE/blob/master/photos/ErikaEarl200x200.jpg?raw=true',
     name: 'Erika Earl',
-    role: 'Exhibit Project Manager',
+    role: 'Hardware Engineer',
     type: 'Technical Leader',
     description: 'Erika is an Audio Engineer with over a decade of experience in designing, servicing, and maintaining audio electronics for professional recording studios. Her career highlights include, Director of Hardware Engineering at Slate Digital, Head of Technology / Sr. Technical Engineer at LA\'s legendary The Village Recording Studios, and a position on The Advisory Council for the Producers & Engineering Wing of The Recording Academy. Erika believes anyone with desire, discipline, and a little imagination can leave giant footprints and she sees the spirit of innovation and social activism in Mind Makers.'
   },
