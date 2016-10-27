@@ -78,3 +78,14 @@ body {
 a:active {
   color: $violet;
 }
+
+.image-gallery-image {
+  height: 50em;
+  overflow: hidden;
+  text-align: center;
+}
+
+.image-gallery-image img {
+  height: 100%;
+  width: auto;
+}
