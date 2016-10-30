@@ -14,9 +14,7 @@ const videoContent = [
 
 const Videos = React.createClass({
   getInitialState () {
-    // Presently we only have 1 video, when we have thumbnails and more videos,
-    // this will specify what video is currently being played
-    return { videoIndex: 0, videos: [], loading: true, nowPlaying: false }
+    return { videoIndex: 0, videos: videos, loading: true, nowPlaying: true }
   },
   componentDidMount () {
   	this.setState({ videos: videos, loading: false })
