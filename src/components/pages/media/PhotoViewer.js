@@ -26,7 +26,8 @@ const PhotoViewer = React.createClass({
     return { images: [], photos: [], activeIndex: null, lightboxIsOpen: false, loading: true }
   },
   componentDidMount () {
-  	this.setState({ images: photoContent, loading: false })
+  	this.setState({ activeIndex: 0, images: photoContent, loading: false })
+    this.handleClick({ index: 0 })
   },
   handleClick(e) {
   	this.setState({ activeIndex: e.index })
@@ -55,6 +56,7 @@ const PhotoViewer = React.createClass({
 
     let lightbox = <ImageGallery
         items={this.state.photos}
+        lazyLoad={true}
         slideInterval={2000}
       />
 
