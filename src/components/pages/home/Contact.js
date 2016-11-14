@@ -7,7 +7,8 @@ const Contact = React.createClass({
       lastName: '',
       email: '',
       subject: '',
-      message: ''
+      message: '',
+      submitted: false
     }
   },
   handleFirstNameChange: function (e) {
@@ -36,6 +37,8 @@ const Contact = React.createClass({
       message: this.state.message
     }
     window.analytics.identify(payload)
+
+    this.setState({ submitted: true }); 
   },
   render () {
     return (
@@ -78,55 +81,61 @@ const Contact = React.createClass({
           <br/>
           <p className='bold'>Any additional comments, inquiries or support are also welcome.</p>
           <hr/>
-          <div className='columns'>
-            <p className='control column is-half'>
+          { this.state.submitted ? 
+            <p className='subtitle is-4'>Thanks! We'll be in touch soon!</p>
+          :
+            <div>
+            <div className='columns'>
+              <p className='control column is-half'>
+                <input
+                  className='input'
+                  type='text'
+                  placeholder='First Name'
+                  value={this.state.firstName}
+                  onChange={this.handleFirstNameChange}
+                />
+              </p>
+              <p className='control column is-half'>
+                <input
+                  className='input'
+                  type='text'
+                  placeholder='Last Name'
+                  value={this.state.lastName}
+                  onChange={this.handleLastNameChange}
+                />
+              </p>
+            </div>
+            <p className='control'>
+              <input
+                className='input'
+                type='email'
+                placeholder='Email'
+                value={this.state.email}
+                onChange={this.handleEmailChange}
+              />
+            </p>
+            <p className='control'>
               <input
                 className='input'
                 type='text'
-                placeholder='First Name'
-                value={this.state.firstName}
-                onChange={this.handleFirstNameChange}
+                placeholder='Subject'
+                value={this.state.subject}
+                onChange={this.handleSubjectChange}
               />
             </p>
-            <p className='control column is-half'>
-              <input
-                className='input'
-                type='text'
-                placeholder='Last Name'
-                value={this.state.lastName}
-                onChange={this.handleLastNameChange}
-              />
+            <p className='control'>
+              <textarea
+                className='textarea'
+                placeholder='Message'
+                value={this.state.message}
+                onChange={this.handleMessageChange}
+              ></textarea>
             </p>
-          </div>
-          <p className='control'>
-            <input
-              className='input'
-              type='email'
-              placeholder='Email'
-              value={this.state.email}
-              onChange={this.handleEmailChange}
-            />
-          </p>
-          <p className='control'>
-            <input
-              className='input'
-              type='text'
-              placeholder='Subject'
-              value={this.state.subject}
-              onChange={this.handleSubjectChange}
-            />
-          </p>
-          <p className='control'>
-            <textarea
-              className='textarea'
-              placeholder='Message'
-              value={this.state.message}
-              onChange={this.handleMessageChange}
-            ></textarea>
-          </p>
-          <p className='control'>
-            <button className='button is-primary' onClick={this.handleSubmit}>Submit</button>
-          </p>
+            <p className='control'>
+              <button className='button is-primary' onClick={this.handleSubmit}>Submit</button>
+            </p>
+            </div>
+          }
         </div>
       </section>
     )
