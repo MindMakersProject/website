@@ -36,7 +36,7 @@ const Videos = React.createClass({
             description={arr.description}
             src={arr.src}
             index={arr.index}
-            key={arr.title}
+            key={arr.index}
             thumbnail={arr.thumbnail}
             handleClick={self.handleClick.bind(this, arr)}
           />

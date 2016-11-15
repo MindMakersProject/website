@@ -22,7 +22,7 @@ const Media = React.createClass({
 
   render () {
     return (
-      <section id='media'>
+      <section id='media' className='section'>
         <div className='container'>
           <div className='heading is-text-centered'>
             <h1 className='title'>Media</h1>

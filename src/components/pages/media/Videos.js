@@ -11,8 +11,6 @@ const videoContent = [
 
 const Videos = React.createClass({
   getInitialState () {
-    // Presently we only have 1 video, when we have thumbnails and more videos,
-    // this will specify what video is currently being played
     return { videoIndex: 0 }
   },
   render () {
