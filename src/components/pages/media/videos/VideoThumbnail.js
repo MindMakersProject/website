@@ -9,7 +9,7 @@ const VideoThumbnail = ({ title, description, src, thumbnail, index, handleClick
 	const styles = {
 	  imageGridItem: {
 	    display: 'inline-block',
-	    width: '25%',
+	    width: '18%',
 	    boxSizing: 'border-box',
 	    float: 'left',
 	    paddingRight: '25px',
