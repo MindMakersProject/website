@@ -1,7 +1,7 @@
 import React from 'react'
 import Videos from './videos/VideoBar.js'
-import Documents from './Documents.js'
-import Photos from './PhotoViewer.js'
+import Documents from './documents/Documents.js'
+import Photos from './photos/PhotoViewer.js'
 
 const Content = React.createClass({
   render () {

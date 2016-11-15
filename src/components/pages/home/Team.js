@@ -1,6 +1,6 @@
 import React from 'react'
-import TeamMember from './../media/TeamMember.js'
-import team from './../media/team.js'
+import TeamMember from './../media/team/TeamMember.js'
+import team from './../media/photos/team.js'
 
 const Team = React.createClass({
   render () {
