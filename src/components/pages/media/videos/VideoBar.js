@@ -1,7 +1,7 @@
 import React from 'react'
 import videos from './videos.js'
 import VideoThumbnail from './VideoThumbnail.js'
-import VideoEmbed from './../VideoEmbed.js'
+import VideoEmbed from './VideoEmbed.js'
 import $ from 'jquery'
 
 // Videos go here
@@ -36,7 +36,7 @@ const Videos = React.createClass({
             description={arr.description}
             src={arr.src}
             index={arr.index}
-            key={arr.index}
+            key={`video-${arr.index}`}
             thumbnail={arr.thumbnail}
             handleClick={self.handleClick.bind(this, arr)}
           />
