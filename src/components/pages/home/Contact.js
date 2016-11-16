@@ -54,16 +54,13 @@ const Contact = React.createClass({
               <br/>
               <p>If you are interested in sponsoring, participating in or just learning more about this powerful initiative, please submit the form below to sign up to receive updates or information.</p>
               <br/>
-              <p>Your skill set and passion might be just what we need. Please check out our volunteer opportunity listings by clicking to <a href="#get-involved">Get Involved</a>.</p>
+              <p>Your skill set and passion might be just what we need. Please check out our volunteer opportunity listings by clicking to <a data-scroll className='link is-info' href="#get-involved">Get Involved</a>.</p>
               <br/>
               <p><strong>Sponsors</strong> If you support the ideas that Mind Makers promotes and you want to sponsor this initiative, please reach out and let us collaborate. You will help make STEM education and mentorship accessible and inspiring to people of all ages from all walks of life, and to paint a new picture of engineers and engineering. As a 501(c)(3) organization, your contribution to Mind Makers will also be tax deductible.</p>
               <br/>
               <p className='bold'>Any additional comments, inquiries or support are also welcome. We will all thrive with your support.</p>
           </div>
           <br/>
-          { this.state.submitted ? 
-            <p className='subtitle is-4'>Thanks! We'll be in touch soon!</p>
-          :
             <div>
             <div className='columns'>
               <p className='control column is-half'>
@@ -112,10 +109,10 @@ const Contact = React.createClass({
               ></textarea>
             </p>
             <p className='control'>
-              <button className='button is-primary' onClick={this.handleSubmit}>Submit</button>
+              <button className={ this.state.submitted ? 'button is-submitted' : 'button is-primary' } onClick={ this.handleSubmit }>Submit</button>
             </p>
+            { this.state.submitted ? <strong> Thanks, we'll be in touch shortly!</strong> : null }
             </div>
-          }
         </div>
       </section>
     )

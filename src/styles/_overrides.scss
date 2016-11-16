@@ -99,6 +99,10 @@ a:hover {
   border-color: white;
 }
 
+.button.is-submitted {
+  background-color: $green;
+}
+
 .tabs.is-toggle li.is-active a {
   color: #fff;
   background-color: $primary;
@@ -210,4 +214,8 @@ a:active {
 
 #events p {
   font-size: 14px;
+}
+
+.social-bar i {
+  padding-right: 5px;
 }
