@@ -1,5 +1,5 @@
 import React from 'react'
-import VideoThumbnail from './videos/VideoThumbnail.js'
+import VideoThumbnail from './../videos/VideoThumbnail.js'
 import ImageGallery from 'react-image-gallery';
 import images from './team.js'
 

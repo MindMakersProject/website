@@ -6,6 +6,7 @@ import Mission from './home/Mission.js'
 import Team from './home/Team.js'
 import Events from './home/Events.js'
 import Media from './home/Media.js'
+import GetInvolved from './home/GetInvolved.js'
 import Contact from './home/Contact.js'
 
 const Home = React.createClass({
@@ -17,6 +18,7 @@ const Home = React.createClass({
         <Team />
         <Media />
         <Events />
+        <GetInvolved />
         <Contact />
       </section>
     )

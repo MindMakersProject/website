@@ -15,9 +15,9 @@ const Hero = React.createClass({
               MIND MAKERS
             </h1>
             <h2 className='subtitle'>
-              <strong>Making Mindful Matters, Matter.</strong>
+              <strong>Make Up Your Mind</strong>
             </h2>
-            <a className='button is-primary is-outlined is-large' href='#contact'>GET INVOLVED</a>
+            <a className='button is-primary is-outlined is-large' href='#get-involved'>GET INVOLVED</a>
           </div>
         </div>
       </section>
