@@ -109,7 +109,7 @@ const Contact = React.createClass({
               ></textarea>
             </p>
             <p className='control'>
-              <button className={ this.state.submitted ? 'button is-submitted' : 'button is-primary' } onClick={ this.handleSubmit }>Submit</button>
+              <button className={ this.state.submitted ? 'button is-submitted' : 'button is-primary' } onClick={ this.handleSubmit }>{ this.state.submitted ? 'Thanks!' : 'Submit' }</button>
             </p>
             { this.state.submitted ? <strong> Thanks, we'll be in touch shortly!</strong> : null }
             </div>
