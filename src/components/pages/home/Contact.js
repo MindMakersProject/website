@@ -46,41 +46,21 @@ const Contact = React.createClass({
         <div className='container'>
           <div className='heading is-text-centered'>
             <h1 className='title'>Contact</h1>
+            <div className='social-bar'>
+              <a href='https://www.instagram.com/mindmakersproject'><i className='fa fa-instagram fa-3x'></i></a>
+              <a href='https://www.facebook.com/MindMakersProject/'><i className='fa fa-facebook-official fa-3x'></i></a>
+              <a href='https://twitter.com/mindmakersproj'><i className='fa fa-twitter-square fa-3x'></i></a>
+            </div>
+              <br/>
+              <p>If you are interested in sponsoring, participating in or just learning more about this powerful initiative, please submit the form below to sign up to receive updates or information.</p>
+              <br/>
+              <p>Your skill set and passion might be just what we need. Please check out our volunteer opportunity listings by clicking to <a href="#get-involved">Get Involved</a>.</p>
+              <br/>
+              <p><strong>Sponsors</strong> If you support the ideas that Mind Makers promotes and you want to sponsor this initiative, please reach out and let us collaborate. You will help make STEM education and mentorship accessible and inspiring to people of all ages from all walks of life, and to paint a new picture of engineers and engineering. As a 501(c)(3) organization, your contribution to Mind Makers will also be tax deductible.</p>
+              <br/>
+              <p className='bold'>Any additional comments, inquiries or support are also welcome. We will all thrive with your support.</p>
           </div>
           <br/>
-          <p>
-            If you are interested in sponsoring or participating in this powerful initiative, please submit the form below to sign up or ask questions. We will thrive with your support.
-          </p>
-          <br/>
-          <p>
-            <strong>Volunteers:</strong> Please provide a brief description of your background, skills and interests.
-          </p>
-          <br/>
-          <p>
-            <strong>Sponsors:</strong> If you support the ideas that Mind Makers promotes so deeply that you want to help sponsor this initiative, please reach out and let us collaborate. You will be helping to provide and encourage STEM education and mentorship for people of all ages from diverse and unexpected backgrounds, and to paint a new picture of engineers and engineering.
-          </p>
-          <br/>
-          <br/>
-          <p className='subtitle is-4'>ENGINEERING EDUCATOR AND/OR MENTOR:</p>
-          <p>
-            If you have technical knowledge and want to share your experience by lesson planning, teaching or workshop mentoring for introductory software, mechanical and electrical engineering concepts:
-          </p>
-          <p className='bold'>Please add "Engineering Volunteer" to the subject line.</p>
-          <br/>
-          <p className='subtitle is-4'>EXHIBIT DESIGNER AND/OR BUILDER:</p>
-          <p>
-            If you have design/project-based mechanism/electronics experience and want to share your skills by exhibit design, planning and construction:
-          </p>
-          <p className='bold'>Please add "Exhibit Volunteer" to the subject line.</p>
-          <br/>
-          <p className='subtitle is-4'>ENGINEERING APPRENTICES:</p>
-          <p>
-            If you are an adult (ages 18-120, <strong>elders: we highly encourage you to join!</strong>) who comes from an underrepresented or traditionally non-technical background (<strong>service industry professionals/homemakers/etc. we want you too!</strong>), you are in the LA area and you’re interested in learning and sharing new skills through the program:
-          </p>
-          <p className='bold'>Please add "Engineering Apprentice" to the subject line.</p>
-          <br/>
-          <p className='bold'>Any additional comments, inquiries or support are also welcome.</p>
-          <hr/>
           { this.state.submitted ? 
             <p className='subtitle is-4'>Thanks! We'll be in touch soon!</p>
           :
