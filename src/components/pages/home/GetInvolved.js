@@ -24,7 +24,7 @@ const GetInvolved = React.createClass({
   render () {
     return (
       <section id='get-involved' className='section'>
-        <div className='container is-text-centered'>
+        <div className='container heading is-text-centered'>
           <h1 className='title'>Get Involved</h1>
           {this.state.jobPostings}
         </div>

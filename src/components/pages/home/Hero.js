@@ -17,7 +17,7 @@ const Hero = React.createClass({
             <h2 className='subtitle'>
               <strong>Make Up Your Mind</strong>
             </h2>
-            <a className='button is-primary is-outlined is-large' href='#get-involved'>GET INVOLVED</a>
+            <a className='button is-primary is-outlined is-large' data-scroll href='#get-involved'>GET INVOLVED</a>
           </div>
         </div>
       </section>
