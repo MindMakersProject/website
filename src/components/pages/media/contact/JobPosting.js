@@ -4,7 +4,7 @@ const JobPosting = ({ title, description, address }) => {
   var addressLink= `mailto:${address}`;
   return (
     <div>
-      <p><strong>{ title }</strong></p>
+      <p className='subtitle is-4'>{ title }</p>
       <p>{ description }</p>
         <address>
           <a href={addressLink}>{ address }</a>
