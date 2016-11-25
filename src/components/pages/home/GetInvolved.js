@@ -39,13 +39,12 @@ const GetInvolved = React.createClass({
         <div className='container is-text-centered'>
           <h1 className='title'>Get Involved</h1>
           <h2 className='subtitle'><strong>We're building a one-of-a-kind, open-source curriculum with virtual content and collaborative hardware building modules. Our team is diverse, building content that ties together neuroscience, robotics, anatomy, data visualization, system networking and philosophy. Join our team!</strong></h2>
-          <h2 className='subtitle'>Curriculum Development</h2>
-          <p>Development Team</p>
+          <h2 className='subtitle is-4'>Curriculum Development</h2>
           <p>Great for creatives & technical types worldwide.</p>
           <br/>
           {this.state.curriculumJobs}
-          <h2 className='subtitle'>Workshop Team</h2>
-          <p>Great for creatives & technical types worldwide.</p>
+          <h2 className='subtitle is-4'>Workshop Team</h2>
+          <p>Makers & movers in the LA area and abroad.</p>
           <br/>
           {this.state.workshopJobs}
         </div>
