@@ -149,7 +149,6 @@ a:hover {
   padding-bottom:5%;
   padding-top:30px;
   height:25vh;
-  overflow:hidden;
 }
 
 .video-container {
@@ -218,4 +217,9 @@ a:active {
 
 .social-bar i {
   padding-right: 5px;
+}
+
+.center-img {
+  max-width: 200px;
+  max-height: 200px;
 }
