@@ -116,7 +116,7 @@ const Team = React.createClass({
           {codepathNodes}
           <br />
           <div className='heading is-text-centered'>
-            <h1 className='title'>Designers</h1>
+            <h1 className='title'>Marketing</h1>
           </div>
           {designerNodes}
           <br/>
