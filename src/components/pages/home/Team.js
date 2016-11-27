@@ -8,7 +8,7 @@ const Team = React.createClass({
     const sponsors = team.filter(function (member) { return member.type === 'Sponsor' })
     const volunteers = team.filter((member) => { return member.type === 'Volunteer Coordinator' })
     const techLeaders = team.filter((member) => { return member.type === 'Technical Leader' })
-    const designers = team.filter((member) => { return member.type === 'Designer' })
+    const marketers = team.filter((member) => { return member.type === 'Marketing' })
     const codePathers = team.filter((member) => { return member.type === 'Codepath' })
     const teamNodes = teams.map((arr, index) => {
       return (
@@ -70,7 +70,7 @@ const Team = React.createClass({
         />
       )
     })
-    const designerNodes = designers.map((arr, index) => {
+    const marketerNodes = marketers.map((arr, index) => {
       return (
         <TeamMember
           key={index}
@@ -116,9 +116,9 @@ const Team = React.createClass({
           {codepathNodes}
           <br />
           <div className='heading is-text-centered'>
-            <h1 className='title'>Designers</h1>
+            <h1 className='title'>Marketing</h1>
           </div>
-          {designerNodes}
+          {marketerNodes}
           <br/>
         </div>
       </section>
