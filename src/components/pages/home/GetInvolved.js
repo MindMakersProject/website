@@ -42,8 +42,10 @@ const GetInvolved = React.createClass({
           <div className='heading is-text-centered'>
             <h1 className='title'>Get Involved</h1>
             <h2 className='subtitle'><strong>We're building a one-of-a-kind, open-source curriculum with virtual content and collaborative hardware building modules. Our team is diverse, building content that ties together neuroscience, robotics, anatomy, data visualization, system networking and philosophy. Join our team!</strong></h2>
+            <a className='button is-primary is-outlined is-medium' target="_blank" href="https://www.paypal.me/MindMakers">Donate</a>
           </div>
           <div className='heading is-text-centered'>
+            <br />
             <h2 className='subtitle is-4 is-text-centered'>Curriculum Development</h2>
             <p>Great for creatives & technical types worldwide.</p>
           </div>
